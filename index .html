@@ -1362,6 +1362,185 @@
           padding: 2.2rem 1.5rem;
         }
       }
+
+      /* ============================================
+     CONTACT MODAL
+     ============================================ */
+      .contact-dialog {
+        margin: auto;
+        width: min(480px, calc(100vw - 2rem));
+        max-height: calc(100vh - 2rem);
+        overflow-y: auto;
+        padding: 0;
+        border: 1px solid var(--ink);
+        border-radius: 4px;
+        background: var(--paper-white);
+        color: var(--ink);
+        box-shadow: 6px 6px 0 var(--ink);
+      }
+      .contact-dialog::backdrop {
+        background: rgba(15, 26, 43, 0.55);
+      }
+      .contact-dialog__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.3rem 1.5rem 1rem;
+        border-bottom: 1px solid var(--line);
+      }
+      .contact-dialog__head h2 {
+        font-family: var(--serif);
+        font-size: 1.4rem;
+        font-weight: 500;
+        letter-spacing: -0.01em;
+        line-height: 1.2;
+      }
+      .contact-dialog__close {
+        background: transparent;
+        border: 1px solid var(--line);
+        border-radius: 3px;
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        padding: 0.35rem 0.6rem;
+        cursor: pointer;
+        color: var(--ink);
+        flex-shrink: 0;
+      }
+      .contact-dialog__close:hover {
+        border-color: var(--ink);
+      }
+      .contact-dialog__body {
+        padding: 1.2rem 1.5rem 1.5rem;
+      }
+      .contact-dialog__intro {
+        font-size: 0.92rem;
+        color: var(--ink-soft);
+      }
+      .contact-dialog__topic {
+        margin-top: 0.8rem;
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        color: var(--stamp);
+      }
+      .contact-list {
+        list-style: none;
+        margin-top: 1.1rem;
+        border-top: 1px solid var(--ink);
+      }
+      .contact-item {
+        display: grid;
+        grid-template-columns: 6.5rem 1fr auto;
+        gap: 0.8rem;
+        align-items: baseline;
+        padding: 0.8rem 0;
+        border-bottom: 1px dotted var(--line);
+        font-size: 0.9rem;
+      }
+      .contact-item__label {
+        font-family: var(--mono);
+        font-size: 0.7rem;
+        letter-spacing: 0.03em;
+        color: var(--ink-soft);
+      }
+      .contact-item__value {
+        color: var(--ink);
+        overflow-wrap: anywhere;
+      }
+      .contact-item__value a {
+        color: var(--stamp);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .contact-item__copy {
+        background: transparent;
+        border: 1px solid var(--line);
+        border-radius: 2px;
+        font-family: var(--mono);
+        font-size: 0.66rem;
+        padding: 0.15rem 0.45rem;
+        cursor: pointer;
+        color: var(--ink-soft);
+      }
+      .contact-item__copy:hover {
+        border-color: var(--ink);
+        color: var(--ink);
+      }
+      .contact-dialog__note {
+        margin-top: 1rem;
+        font-size: 0.8rem;
+        color: var(--ink-soft);
+      }
+      @media (max-width: 480px) {
+        .contact-item {
+          grid-template-columns: 1fr auto;
+        }
+        .contact-item__label {
+          grid-column: 1 / -1;
+        }
+      }
+
+      /* ---- demo credentials (rendered from NAET_DEMO) ---- */
+      .demo-creds {
+        margin: 1.8rem auto 0;
+        max-width: 580px;
+        text-align: left;
+        border: 1px solid #23324a;
+        border-radius: 3px;
+      }
+      .demo-creds__row {
+        display: grid;
+        grid-template-columns: 7.5rem 1fr 1fr;
+        gap: 0.8rem;
+        align-items: center;
+        padding: 0.7rem 1rem;
+        border-bottom: 1px solid #23324a;
+        font-size: 0.85rem;
+      }
+      .demo-creds__row:last-child {
+        border-bottom: none;
+      }
+      .demo-creds__row--head {
+        font-family: var(--mono);
+        font-size: 0.66rem;
+        letter-spacing: 0.05em;
+        color: #7e8ca3;
+      }
+      .demo-creds__role {
+        color: #dde3ec;
+      }
+      .demo-creds__val {
+        font-family: var(--mono);
+        font-size: 0.76rem;
+        color: #e8b75c;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid transparent;
+        border-radius: 2px;
+        padding: 0.25rem 0.5rem;
+        text-align: left;
+        cursor: pointer;
+        overflow-wrap: anywhere;
+      }
+      .demo-creds__val:hover {
+        border-color: #4a5a76;
+      }
+      .demo-creds__hint {
+        padding: 0.6rem 1rem;
+        font-size: 0.72rem;
+        color: #7e8ca3;
+        border-top: 1px solid #23324a;
+      }
+      @media (max-width: 560px) {
+        .demo-creds__row {
+          grid-template-columns: 1fr 1fr;
+        }
+        .demo-creds__role {
+          grid-column: 1 / -1;
+        }
+        .demo-creds__row--head {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -1381,9 +1560,7 @@
           <a href="#audiences">Who it's for</a>
         </nav>
         <div class="letterhead__cta">
-          <a href="mailto:hello@example.com" class="btn btn--ghost"
-            >Contact us</a
-          >
+          <a href="#contact" class="btn btn--ghost">Contact us</a>
           <a href="#demo" class="btn btn--dark">Try the demo</a>
           <button
             class="menu-toggle"
@@ -1406,9 +1583,7 @@
           <li><a href="#audiences">Who it's for</a></li>
         </ul>
         <div class="mobile-cta">
-          <a href="mailto:hello@example.com" class="btn btn--ghost"
-            >Contact us</a
-          >
+          <a href="#contact" class="btn btn--ghost">Contact us</a>
           <a href="#demo" class="btn btn--dark">Try the demo</a>
         </div>
       </div>
@@ -1820,7 +1995,7 @@
               </li>
             </ul>
             <div class="hero__ctas" style="margin-top: 2rem">
-              <a class="btn btn--dark">Request a walkthrough</a>
+              <a href="#contact" class="btn btn--dark">Request a walkthrough</a>
               <a href="#demo" class="btn btn--ghost">Try the demo</a>
             </div>
           </div>
@@ -1861,23 +2036,30 @@
             <h2>See Naet running on a live instance.</h2>
             <p>
               Explore a fully functional deployment with sample data for each
-              tenant role. Pick a role, request its credentials, and start
-              exploring.
+              tenant role.
+              <span id="demo-intro-text"
+                >Pick a role, request its credentials, and start
+                exploring.</span
+              >
             </p>
             <div class="demo__actions">
               <a
                 href="https://naet-tat2.onrender.com/"
+                id="demo-launch"
                 target="_blank"
                 rel="noopener"
                 class="btn btn--brass btn--large"
                 >Launch live demo</a
               >
               <a
-                href="mailto:hello@example.com?subject=Demo%20credentials"
+                href="#contact"
+                data-contact-topic="Demo credentials"
+                id="demo-request-btn"
                 class="btn btn--outline-light btn--large"
-                >credentials</a
+                >Request credentials</a
               >
             </div>
+            <div class="demo-creds" id="demo-creds" hidden></div>
             <div class="demo__note">
               <svg
                 viewBox="0 0 24 24"
@@ -1893,13 +2075,13 @@
                 <line x1="12" y1="16" x2="12" y2="12"></line>
                 <line x1="12" y1="8" x2="12.01" y2="8"></line>
               </svg>
-              <span
+              <span id="demo-note-text"
                 >Demo resets every 24 hours · Credentials provided on
                 request</span
               >
             </div>
 
-            <div class="tenant__note">
+            <div class="tenant__note" id="demo-request-note">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -1915,7 +2097,7 @@
               </svg>
               <span
                 >Demo credentials for each role are sent on request —
-                <a href="mailto:hello@example.com?subject=Demo%20credentials"
+                <a href="#contact" data-contact-topic="Demo credentials"
                   >get in touch</a
                 >.</span
               >
@@ -2113,9 +2295,7 @@
             <a href="#demo" class="btn btn--dark btn--large"
               >Try the live demo</a
             >
-            <a href="mailto:hello@example.com" class="btn btn--ghost btn--large"
-              >Contact us</a
-            >
+            <a href="#contact" class="btn btn--ghost btn--large">Contact us</a>
           </div>
           <p class="closing__note">Self-hosted · your servers, your data</p>
         </div>
@@ -2143,10 +2323,10 @@
               <h4>CONTACT</h4>
               <ul>
                 <li>
-                  <a href="mailto:hello@example.com">Request a walkthrough</a>
+                  <a href="#contact">Request a walkthrough</a>
                 </li>
                 <li>
-                  <a href="mailto:hello@example.com?subject=Demo%20credentials"
+                  <a href="#contact" data-contact-topic="Demo credentials"
                     >Request credentials</a
                   >
                 </li>
@@ -2172,6 +2352,310 @@
         </div>
       </div>
     </footer>
+
+    <dialog
+      class="contact-dialog"
+      id="contact-dialog"
+      aria-labelledby="contact-title"
+    >
+      <div class="contact-dialog__head">
+        <h2 id="contact-title"></h2>
+        <button type="button" class="contact-dialog__close" data-contact-close>
+          Close
+        </button>
+      </div>
+      <div class="contact-dialog__body">
+        <p class="contact-dialog__intro" id="contact-intro"></p>
+        <p class="contact-dialog__topic" id="contact-topic" hidden></p>
+        <ul class="contact-list" id="contact-list"></ul>
+        <p class="contact-dialog__note" id="contact-note"></p>
+      </div>
+    </dialog>
+
+    <!-- ===== CONTACT CONFIG — edit this block only ===================== -->
+    <script>
+      window.NAET_CONTACT = {
+        title: "Get in touch",
+        intro:
+          "Pick whichever channel suits you. We'll walk through your programmes, grading policy, and escalation chain.",
+        note: "Typical response time: within one working day.",
+        // type: "email" | "phone" | "whatsapp" | "link" | "text"
+        // Leave a channel out (or set value to "") to hide it.
+        channels: [
+          { type: "email", label: "EMAIL", value: "" },
+          { type: "phone", label: "PHONE", value: "" },
+          { type: "whatsapp", label: "WHATSAPP", value: "" },
+          {
+            type: "link",
+            label: "BOOK A CALL",
+            value: "Pick a time",
+            href: "",
+          },
+          {
+            type: "text",
+            label: "OFFICE",
+            value: "",
+          },
+        ],
+      };
+    </script>
+
+    <script>
+      (function () {
+        var cfg = window.NAET_CONTACT || {};
+        var dlg = document.getElementById("contact-dialog");
+        if (!dlg || typeof dlg.showModal !== "function") return;
+
+        var list = document.getElementById("contact-list");
+        var topicEl = document.getElementById("contact-topic");
+
+        function digits(s) {
+          return String(s).replace(/[^\d+]/g, "");
+        }
+
+        function hrefFor(ch, topic) {
+          switch (ch.type) {
+            case "email":
+              return (
+                "mailto:" +
+                ch.value +
+                (topic ? "?subject=" + encodeURIComponent(topic) : "")
+              );
+            case "phone":
+              return "tel:" + digits(ch.value);
+            case "whatsapp":
+              return (
+                "https://wa.me/" +
+                digits(ch.value).replace("+", "") +
+                (topic ? "?text=" + encodeURIComponent(topic) : "")
+              );
+            case "link":
+              return ch.href || "";
+            default:
+              return "";
+          }
+        }
+
+        function render(topic) {
+          document.getElementById("contact-title").textContent =
+            cfg.title || "Contact us";
+          document.getElementById("contact-intro").textContent =
+            cfg.intro || "";
+          document.getElementById("contact-note").textContent = cfg.note || "";
+          topicEl.hidden = !topic;
+          topicEl.textContent = topic ? "Regarding: " + topic : "";
+          list.textContent = "";
+
+          (cfg.channels || []).forEach(function (ch) {
+            if (!ch || !ch.value) return;
+            var li = document.createElement("li");
+            li.className = "contact-item";
+
+            var label = document.createElement("span");
+            label.className = "contact-item__label";
+            label.textContent = ch.label || ch.type.toUpperCase();
+
+            var val = document.createElement("span");
+            val.className = "contact-item__value";
+            var href = hrefFor(ch, topic);
+            if (href) {
+              var a = document.createElement("a");
+              a.href = href;
+              a.textContent = ch.value;
+              if (/^https?:/.test(href)) {
+                a.target = "_blank";
+                a.rel = "noopener";
+              }
+              val.appendChild(a);
+            } else {
+              val.textContent = ch.value;
+            }
+
+            li.appendChild(label);
+            li.appendChild(val);
+
+            if (
+              ch.type === "email" ||
+              ch.type === "phone" ||
+              ch.type === "whatsapp"
+            ) {
+              var btn = document.createElement("button");
+              btn.type = "button";
+              btn.className = "contact-item__copy";
+              btn.textContent = "Copy";
+              btn.addEventListener("click", function () {
+                if (!navigator.clipboard) return;
+                navigator.clipboard.writeText(ch.value).then(function () {
+                  btn.textContent = "Copied";
+                  setTimeout(function () {
+                    btn.textContent = "Copy";
+                  }, 1500);
+                });
+              });
+              li.appendChild(btn);
+            } else {
+              li.appendChild(document.createElement("span"));
+            }
+            list.appendChild(li);
+          });
+        }
+
+        function openContact(topic) {
+          render(topic || "");
+          if (!dlg.open) dlg.showModal();
+        }
+
+        document.addEventListener("click", function (e) {
+          var link = e.target.closest && e.target.closest('a[href="#contact"]');
+          if (link) {
+            e.preventDefault();
+            openContact(link.getAttribute("data-contact-topic"));
+            return;
+          }
+          if (e.target.closest && e.target.closest("[data-contact-close]"))
+            dlg.close();
+          else if (e.target === dlg) dlg.close(); // backdrop click
+        });
+
+        if (location.hash === "#contact") openContact("");
+      })();
+    </script>
+
+    <!-- ===== DEMO CONFIG — edit this block only ======================= -->
+    <script>
+      window.NAET_DEMO = {
+        url: "https://naet-tat2.onrender.com/",
+        note: "Demo resets every 24 hours",
+        // Optional link to a page/file listing the logins (opens in a new tab).
+        // Leave "" to use the on-request flow or the inline table below.
+        credentialsUrl: "credentials.txt",
+        credentialsLabel: "Get credentials",
+        // Leave empty to show "Request credentials" (opens the contact modal).
+        // Add entries to show a click-to-copy credentials table instead.
+        credentials: [
+          // { role: "Registrar",       username: "registrar@example.com", password: "change-me" },
+          // { role: "Lecturer",        username: "lecturer@example.com",  password: "change-me" },
+          // { role: "Student",         username: "COM/26/0142",           password: "change-me" },
+          // { role: "Dean of Students", username: "dean@example.com",     password: "change-me" },
+        ],
+      };
+    </script>
+
+    <script>
+      (function () {
+        var cfg = window.NAET_DEMO || {};
+        var $ = function (id) {
+          return document.getElementById(id);
+        };
+
+        var launch = $("demo-launch");
+        if (launch && cfg.url) launch.href = cfg.url;
+
+        var creds = (cfg.credentials || []).filter(function (c) {
+          return c && (c.username || c.password);
+        });
+        var note = cfg.note || "Demo resets every 24 hours";
+        var credUrl = cfg.credentialsUrl || "";
+        var btn = $("demo-request-btn");
+        var reqNote = $("demo-request-note");
+
+        // credentials link supplied: button and note point at it instead of the contact modal
+        if (credUrl) {
+          btn.href = credUrl;
+          btn.target = "_blank";
+          btn.rel = "noopener";
+          btn.removeAttribute("data-contact-topic");
+          btn.textContent = cfg.credentialsLabel || "Get credentials";
+
+          var span = reqNote.querySelector("span");
+          span.textContent = "Demo credentials for each role are published ";
+          var a = document.createElement("a");
+          a.href = credUrl;
+          a.target = "_blank";
+          a.rel = "noopener";
+          a.textContent = "here";
+          span.appendChild(a);
+          span.appendChild(document.createTextNode("."));
+        }
+
+        if (!creds.length) {
+          if (credUrl) {
+            $("demo-intro-text").textContent =
+              "Pick a role, grab its credentials, and start exploring.";
+            $("demo-note-text").textContent = note;
+          } else {
+            $("demo-note-text").textContent =
+              note + " · Credentials provided on request";
+          }
+          return;
+        }
+
+        // inline credentials supplied: show the table; keep the button only if there is a link
+        if (!credUrl) btn.hidden = true;
+        reqNote.hidden = true;
+        $("demo-intro-text").textContent =
+          "Pick a role, sign in with the credentials below, and start exploring.";
+        $("demo-note-text").textContent = note;
+
+        var box = $("demo-creds");
+        box.textContent = "";
+
+        function row(cells, head) {
+          var r = document.createElement("div");
+          r.className =
+            "demo-creds__row" + (head ? " demo-creds__row--head" : "");
+          cells.forEach(function (c) {
+            r.appendChild(c);
+          });
+          return r;
+        }
+        function text(t, cls) {
+          var s = document.createElement("span");
+          if (cls) s.className = cls;
+          s.textContent = t;
+          return s;
+        }
+        function copyBtn(value) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.className = "demo-creds__val";
+          b.title = "Click to copy";
+          b.textContent = value || "—";
+          if (!value) {
+            b.disabled = true;
+            return b;
+          }
+          b.addEventListener("click", function () {
+            if (!navigator.clipboard) return;
+            navigator.clipboard.writeText(value).then(function () {
+              b.textContent = "Copied";
+              setTimeout(function () {
+                b.textContent = value;
+              }, 1200);
+            });
+          });
+          return b;
+        }
+
+        box.appendChild(
+          row([text("ROLE"), text("USERNAME"), text("PASSWORD")], true),
+        );
+        creds.forEach(function (c) {
+          box.appendChild(
+            row([
+              text(c.role || "", "demo-creds__role"),
+              copyBtn(c.username),
+              copyBtn(c.password),
+            ]),
+          );
+        });
+        var hint = document.createElement("div");
+        hint.className = "demo-creds__hint";
+        hint.textContent = "Click a value to copy it.";
+        box.appendChild(hint);
+        box.hidden = false;
+      })();
+    </script>
 
     <script>
       (function () {
