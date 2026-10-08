@@ -1,14 +1,29 @@
 Students created: 10, 
 
-NAME                        ADMISSION SCHOOL EMAIL                                  REG NO
---------------------------------------------------------------------------------------------------------------
-Wanjiku Mwangi Njeri        KUCCPS    wanjiku.njeri@students.naetuniversity.com     1101001/0001/26
-Brian Otieno Odhiambo       KUCCPS    brian.odhiambo@students.naetuniversity.com    1102002/0002/26
-Amina Hassan Abdi           KUCCPS    amina.abdi@students.naetuniversity.com        1103003/0003/26
-Kevin Kipchoge Rotich       KUCCPS    kevin.rotich@students.naetuniversity.com      1104004/0004/26
-Grace Atieno Achieng        KUCCPS    grace.achieng@students.naetuniversity.com     1105005/0005/26
-Peter Mutua Kioko           KUCCPS    peter.kioko@students.naetuniversity.com       1106006/0006/26
-Faith Naliaka Wekesa        KUCCPS    faith.wekesa@students.naetuniversity.com      1107007/0007/26
-Daniel Lekishon Sankale     KUCCPS    daniel.sankale@students.naetuniversity.com    1101001/0008/26
-Mercy Wairimu Kamau         KUCCPS    mercy.kamau@students.naetuniversity.com       1108008/0009/26
-Hassan Juma Mohamed         KUCCPS    hassan.mohamed@students.naetuniversity.com    1105005/0010/26
+Summary
+  BCOM/26         2 new student(s)
+  BED-ARTS/26     1 new student(s)
+  BPHARM/26       1 new student(s)
+  BSC-AGR/26      1 new student(s)
+  BSC-CE/26       1 new student(s)
+  CS/26           2 new student(s)
+  LLB/26          1 new student(s)
+  MBCHB/26        1 new student(s)
+
+LOGINS (dev only)
+CLASS         NAME                        ROLE  LOGIN EMAIL                                 PASSWORD        REG NO / SCHOOL EMAIL
+------------------------------------------------------------------------------------------------------------------------------------------------------
+BCOM/26       Grace Atieno Achieng              grace.achieng@example.com                   ChangeMe123!    BCOM/0005/26  grace.achieng@students.naetuniversity.com
+BCOM/26       Hassan Juma Mohamed               hassan.mohamed@example.com                  ChangeMe123!    BCOM/0010/26  hassan.mohamed@students.naetuniversity.com
+BED-ARTS/26   Amina Hassan Abdi                 amina.abdi@example.com                      ChangeMe123!    BED-ARTS/0003/26  amina.abdi@students.naetuniversity.com
+BPHARM/26     Faith Naliaka Wekesa              faith.wekesa@example.com                    ChangeMe123!    BPHARM/0007/26  faith.wekesa@students.naetuniversity.com
+BSC-AGR/26    Peter Mutua Kioko                 peter.kioko@example.com                     ChangeMe123!    BSC-AGR/0006/26  peter.kioko@students.naetuniversity.com
+BSC-CE/26     Kevin Kipchoge Rotich             kevin.rotich@example.com                    ChangeMe123!    BSC-CE/0004/26  kevin.rotich@students.naetuniversity.com
+CS/26         Wanjiku Mwangi Njeri              wanjiku.njeri@example.com                   ChangeMe123!    CS/0001/26  wanjiku.njeri@students.naetuniversity.com
+CS/26         Daniel Lekishon Sankale           daniel.sankale@example.com                  ChangeMe123!    CS/0008/26  daniel.sankale@students.naetuniversity.com
+LLB/26        Mercy Wairimu Kamau               mercy.kamau@example.com                     ChangeMe123!    LLB/0009/26  mercy.kamau@students.naetuniversity.com
+MBCHB/26      Brian Otieno Odhiambo             brian.odhiambo@example.com                  ChangeMe123!    MBCHB/0002/26  brian.odhiambo@students.naetuniversity.com
+
+Login accepts the email, the registration number or the school email.
+
+The aboveStudents must register first (activate their account and complete registration) before they can use the portal.
