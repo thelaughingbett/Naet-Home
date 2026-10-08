@@ -1,0 +1,438 @@
+Session 2026/2027 - Sem 1
+
+Agricultural Sciences
+  AGR 111  Crop Science I                  -> Prof. Daniel Ndungu             | BSC-AGR/26
+  AGR 112  Soil Science I                  -> Snr. Lec. David Mwangi          | BSC-AGR/26
+  AGR 113  Animal Husbandry I              -> Lec. Rose Odhiambo              | BSC-AGR/26
+  AGR 114  General Chemistry I             -> Lec. Beatrice Mutua             | BSC-AGR/26
+  AGR 115  Agricultural Economics I        -> Asst. Lec. Winnie Simiyu        | BSC-AGR/26
+  AGR 116  Plant Pathology I               -> Jr. Lec. Ann Rotich             | BSC-AGR/26
+  AGR 211  Crop Science II                 -> Prof. Mercy Mohamed             | BSC-AGR/25
+  AGR 212  Soil Science II                 -> Snr. Lec. Joseph Onyango        | BSC-AGR/25
+  AGR 213  Animal Husbandry II             -> Lec. Faith Mohamed              | BSC-AGR/25
+  AGR 214  General Chemistry II            -> Lec. Collins Simiyu             | BSC-AGR/25
+  AGR 215  Agricultural Economics II       -> Asst. Lec. Kevin Wafula         | BSC-AGR/25
+  AGR 216  Agroforestry I                  -> Jr. Lec. James Mutua            | BSC-AGR/25
+  AGR 217  Aquaculture I                   -> Prof. Nelson Rotich             | BSC-AGR/25
+  AGR 218  Apiculture I                    -> Prof. Daniel Ndungu             | BSC-AGR/25
+  AGR 219  Post-Harvest Technology I       -> Snr. Lec. David Mwangi          | BSC-AGR/25
+  AGR 311  Genetics and Plant Breeding II  -> Lec. Rose Odhiambo              | BSC-AGR/24
+  AGR 312  Agricultural Extension II       -> Lec. Beatrice Mutua             | BSC-AGR/24
+  AGR 313  Crop Science III                -> Asst. Lec. Winnie Simiyu        | BSC-AGR/24
+  AGR 314  Soil Science III                -> Jr. Lec. Ann Rotich             | BSC-AGR/24
+  AGR 315  Animal Husbandry III            -> Prof. Mercy Mohamed             | BSC-AGR/24
+  AGR 316  Agroforestry II                 -> Snr. Lec. Joseph Onyango        | BSC-AGR/24
+  AGR 317  Aquaculture II                  -> Lec. Faith Mohamed              | BSC-AGR/24
+  AGR 318  Apiculture II                   -> Lec. Collins Simiyu             | BSC-AGR/24
+  AGR 319  Post-Harvest Technology II      -> Asst. Lec. Kevin Wafula         | BSC-AGR/24
+  AGR 411  Horticulture III                -> Jr. Lec. James Mutua            | BSC-AGR/23
+  AGR 412  Agronomy III                    -> Prof. Nelson Rotich             | BSC-AGR/23
+  AGR 413  Farm Management III             -> Prof. Daniel Ndungu             | BSC-AGR/23
+  AGR 414  Genetics and Plant Breeding II  -> Snr. Lec. David Mwangi          | BSC-AGR/23
+  AGR 415  Agricultural Extension III      -> Lec. Rose Odhiambo              | BSC-AGR/23
+  AGR 416  Agroforestry III                -> Lec. Beatrice Mutua             | BSC-AGR/23
+  AGR 417  Aquaculture III                 -> Asst. Lec. Winnie Simiyu        | BSC-AGR/23
+  AGR 418  Apiculture III                  -> Jr. Lec. Ann Rotich             | BSC-AGR/23
+  AGR 419  Post-Harvest Technology III     -> Prof. Mercy Mohamed             | BSC-AGR/23
+  CHE 111  General Chemistry               -> Snr. Lec. Joseph Onyango        | BSC-AGR/26
+
+Business Administration
+  ACC 111  Financial Accounting I          -> Prof. Caroline Mutua            | BCOM/26
+  BUS 111  Principles of Management I      -> Snr. Lec. Ann Wekesa            | BCOM/26
+  BUS 112  Financial Accounting I          -> Lec. James Omondi               | BCOM/26
+  BUS 113  Microeconomics I                -> Lec. Purity Omondi              | BCOM/26
+  BUS 114  Macroeconomics I                -> Asst. Lec. James Cheruiyot      | BCOM/26
+  BUS 115  Business Law I                  -> Jr. Lec. Samuel Mutua           | BCOM/26
+  BUS 116  Marketing I                     -> Prof. Felix Kiptoo              | BCOM/26
+  BUS 211  Principles of Management II     -> Snr. Lec. Esther Wekesa         | BCOM/25
+  BUS 212  Financial Accounting II         -> Lec. Collins Rotich             | BCOM/25
+  BUS 213  Microeconomics II               -> Lec. Lucy Otieno                | BCOM/25
+  BUS 214  Macroeconomics II               -> Asst. Lec. Isaac Ndungu         | BCOM/25
+  BUS 215  Business Law II                 -> Jr. Lec. Joseph Omondi          | BCOM/25
+  BUS 216  Taxation I                      -> Prof. Victor Simiyu             | BCOM/25
+  BUS 217  International Business I        -> Prof. Caroline Mutua            | BCOM/25
+  BUS 218  Supply Chain Management I       -> Snr. Lec. Ann Wekesa            | BCOM/25
+  BUS 219  Banking I                       -> Lec. James Omondi               | BCOM/25
+  BUS 311  Entrepreneurship II             -> Lec. Purity Omondi              | BCOM/24
+  BUS 312  Auditing II                     -> Asst. Lec. James Cheruiyot      | BCOM/24
+  BUS 313  Principles of Management III    -> Jr. Lec. Samuel Mutua           | BCOM/24
+  BUS 314  Financial Accounting III        -> Prof. Felix Kiptoo              | BCOM/24
+  BUS 315  Microeconomics III              -> Snr. Lec. Esther Wekesa         | BCOM/24
+  BUS 316  Taxation II                     -> Lec. Collins Rotich             | BCOM/24
+  BUS 317  International Business II       -> Lec. Lucy Otieno                | BCOM/24
+  BUS 318  Supply Chain Management II      -> Asst. Lec. Isaac Ndungu         | BCOM/24
+  BUS 319  Banking II                      -> Jr. Lec. Joseph Omondi          | BCOM/24
+  BUS 411  Cost Accounting III             -> Prof. Victor Simiyu             | BCOM/23
+  BUS 412  Corporate Finance III           -> Prof. Caroline Mutua            | BCOM/23
+  BUS 413  Human Resource Management III   -> Snr. Lec. Ann Wekesa            | BCOM/23
+  BUS 414  Entrepreneurship III            -> Lec. James Omondi               | BCOM/23
+  BUS 415  Auditing III                    -> Lec. Purity Omondi              | BCOM/23
+  BUS 416  Taxation III                    -> Asst. Lec. James Cheruiyot      | BCOM/23
+  BUS 417  International Business III      -> Jr. Lec. Samuel Mutua           | BCOM/23
+  BUS 418  Supply Chain Management III     -> Prof. Felix Kiptoo              | BCOM/23
+  BUS 419  Banking III                     -> Snr. Lec. Esther Wekesa         | BCOM/23
+  ECO 111  Microeconomics                  -> Lec. Collins Rotich             | BCOM/26
+
+Civil Engineering
+  CEN 111  Engineering Mechanics I         -> Prof. Naomi Karanja             | BSC-CE/26
+  CEN 112  Engineering Mathematics I       -> Snr. Lec. Daniel Odhiambo       | BSC-CE/26
+  CEN 113  Structural Analysis I           -> Lec. Ann Wafula                 | BSC-CE/26
+  CEN 114  Fluid Mechanics I               -> Lec. Victor Kiptoo              | BSC-CE/26
+  CEN 115  Surveying I                     -> Asst. Lec. Esther Abdi          | BSC-CE/26
+  CEN 116  Engineering Drawing I           -> Jr. Lec. Ann Karanja            | BSC-CE/26
+  CEN 211  Engineering Mechanics II        -> Prof. Dennis Otieno             | BSC-CE/25
+  CEN 212  Engineering Mathematics II      -> Snr. Lec. Irene Ndungu          | BSC-CE/25
+  CEN 213  Structural Analysis II          -> Lec. Ann Chebet                 | BSC-CE/25
+  CEN 214  Fluid Mechanics II              -> Lec. Beatrice Langat            | BSC-CE/25
+  CEN 215  Surveying II                    -> Asst. Lec. Mercy Omondi         | BSC-CE/25
+  CEN 216  Environmental Engineering I     -> Jr. Lec. Esther Kiptoo          | BSC-CE/25
+  CEN 217  Bridge Engineering I            -> Prof. Isaac Rotich              | BSC-CE/25
+  CEN 218  Water Resources I               -> Prof. Naomi Karanja             | BSC-CE/25
+  CEN 219  Geotechnical Engineering I      -> Snr. Lec. Daniel Odhiambo       | BSC-CE/25
+  CEN 311  Construction Management II      -> Lec. Ann Wafula                 | BSC-CE/24
+  CEN 312  Steel Design II                 -> Lec. Victor Kiptoo              | BSC-CE/24
+  CEN 313  Engineering Mechanics III       -> Asst. Lec. Esther Abdi          | BSC-CE/24
+  CEN 314  Engineering Mathematics III     -> Jr. Lec. Ann Karanja            | BSC-CE/24
+  CEN 315  Structural Analysis III         -> Prof. Dennis Otieno             | BSC-CE/24
+  CEN 316  Environmental Engineering II    -> Snr. Lec. Irene Ndungu          | BSC-CE/24
+  CEN 317  Bridge Engineering II           -> Lec. Ann Chebet                 | BSC-CE/24
+  CEN 318  Water Resources II              -> Lec. Beatrice Langat            | BSC-CE/24
+  CEN 319  Geotechnical Engineering II     -> Asst. Lec. Mercy Omondi         | BSC-CE/24
+  CEN 411  Hydrology III                   -> Jr. Lec. Esther Kiptoo          | BSC-CE/23
+  CEN 412  Highway Engineering III         -> Prof. Isaac Rotich              | BSC-CE/23
+  CEN 413  Construction Management III     -> Prof. Naomi Karanja             | BSC-CE/23
+  CEN 414  Steel Design III                -> Snr. Lec. Daniel Odhiambo       | BSC-CE/23
+  CEN 415  Engineering Mechanics IV        -> Lec. Ann Wafula                 | BSC-CE/23
+  CEN 416  Environmental Engineering III   -> Lec. Victor Kiptoo              | BSC-CE/23
+  CEN 417  Bridge Engineering III          -> Asst. Lec. Esther Abdi          | BSC-CE/23
+  CEN 418  Water Resources III             -> Jr. Lec. Ann Karanja            | BSC-CE/23
+  CEN 419  Geotechnical Engineering III    -> Prof. Dennis Otieno             | BSC-CE/23
+  CEN 511  Engineering Drawing IV          -> Snr. Lec. Irene Ndungu          | BSC-CE/22
+  CEN 512  Soil Mechanics IV               -> Lec. Ann Chebet                 | BSC-CE/22
+  CEN 513  Concrete Technology IV          -> Lec. Beatrice Langat            | BSC-CE/22
+  CEN 514  Hydrology IV                    -> Asst. Lec. Mercy Omondi         | BSC-CE/22
+  CEN 515  Highway Engineering IV          -> Jr. Lec. Esther Kiptoo          | BSC-CE/22
+  CEN 516  Environmental Engineering IV    -> Prof. Isaac Rotich              | BSC-CE/22
+  CEN 517  Bridge Engineering IV           -> Prof. Naomi Karanja             | BSC-CE/22
+  CEN 518  Water Resources IV              -> Snr. Lec. Daniel Odhiambo       | BSC-CE/22
+  CEN 519  Geotechnical Engineering IV     -> Lec. Ann Wafula                 | BSC-CE/22
+  MAT 121  Engineering Mathematics I       -> Lec. Victor Kiptoo              | BSC-CE/26
+
+Clinical Medicine
+  ANA 111  Gross Anatomy                   -> Prof. Jane Mwangi               | MBCHB/26
+  BCH 111  Medical Biochemistry            -> Snr. Lec. Winnie Kamau          | MBCHB/26
+  MED 111  Anatomy I                       -> Lec. Peter Omondi               | MBCHB/26
+  MED 112  Physiology I                    -> Lec. Esther Omondi              | MBCHB/26
+  MED 113  Biochemistry I                  -> Asst. Lec. Beatrice Mwangi      | MBCHB/26
+  MED 114  Pathology I                     -> Jr. Lec. Naomi Rotich           | MBCHB/26
+  MED 115  Pharmacology I                  -> Prof. Brian Wekesa              | MBCHB/26
+  MED 116  Microbiology I                  -> Snr. Lec. Brian Kamau           | MBCHB/26
+  MED 211  Anatomy II                      -> Lec. Irene Otieno               | MBCHB/25
+  MED 212  Physiology II                   -> Lec. Lucy Wafula                | MBCHB/25
+  MED 213  Biochemistry II                 -> Asst. Lec. David Kariuki        | MBCHB/25
+  MED 214  Pathology II                    -> Jr. Lec. Brian Kariuki          | MBCHB/25
+  MED 215  Pharmacology II                 -> Prof. James Mwangi              | MBCHB/25
+  MED 216  Radiology I                     -> Snr. Lec. Winnie Kamau          | MBCHB/25
+  MED 217  Dermatology I                   -> Lec. Peter Omondi               | MBCHB/25
+  MED 218  Psychiatry I                    -> Lec. Esther Omondi              | MBCHB/25
+  MED 219  Ophthalmology I                 -> Asst. Lec. Beatrice Mwangi      | MBCHB/25
+  MED 311  Community Health II             -> Jr. Lec. Naomi Rotich           | MBCHB/24
+  MED 312  Clinical Skills II              -> Prof. Brian Wekesa              | MBCHB/24
+  MED 313  Anatomy III                     -> Snr. Lec. Brian Kamau           | MBCHB/24
+  MED 314  Physiology III                  -> Lec. Irene Otieno               | MBCHB/24
+  MED 315  Biochemistry III                -> Lec. Lucy Wafula                | MBCHB/24
+  MED 316  Radiology II                    -> Asst. Lec. David Kariuki        | MBCHB/24
+  MED 317  Dermatology II                  -> Jr. Lec. Brian Kariuki          | MBCHB/24
+  MED 318  Psychiatry II                   -> Prof. James Mwangi              | MBCHB/24
+  MED 319  Ophthalmology II                -> Prof. Jane Mwangi               | MBCHB/24
+  MED 411  Paediatrics III                 -> Snr. Lec. Winnie Kamau          | MBCHB/23
+  MED 412  Obstetrics and Gynaecology III  -> Lec. Peter Omondi               | MBCHB/23
+  MED 413  Community Health III            -> Lec. Esther Omondi              | MBCHB/23
+  MED 414  Clinical Skills III             -> Asst. Lec. Beatrice Mwangi      | MBCHB/23
+  MED 415  Anatomy IV                      -> Jr. Lec. Naomi Rotich           | MBCHB/23
+  MED 416  Radiology III                   -> Prof. Brian Wekesa              | MBCHB/23
+  MED 417  Dermatology III                 -> Snr. Lec. Brian Kamau           | MBCHB/23
+  MED 418  Psychiatry III                  -> Lec. Irene Otieno               | MBCHB/23
+  MED 419  Ophthalmology III               -> Lec. Lucy Wafula                | MBCHB/23
+  MED 511  Internal Medicine IV            -> Asst. Lec. David Kariuki        | MBCHB/22
+  MED 512  Surgery IV                      -> Jr. Lec. Brian Kariuki          | MBCHB/22
+  MED 513  Paediatrics IV                  -> Prof. James Mwangi              | MBCHB/22
+  MED 514  Obstetrics and Gynaecology IV   -> Prof. Jane Mwangi               | MBCHB/22
+  MED 515  Community Health IV             -> Snr. Lec. Winnie Kamau          | MBCHB/22
+  MED 516  Radiology IV                    -> Lec. Peter Omondi               | MBCHB/22
+  MED 517  Dermatology IV                  -> Lec. Esther Omondi              | MBCHB/22
+  MED 518  Psychiatry IV                   -> Asst. Lec. Beatrice Mwangi      | MBCHB/22
+  MED 519  Ophthalmology IV                -> Jr. Lec. Naomi Rotich           | MBCHB/22
+  MED 611  Pathology V                     -> Prof. Brian Wekesa              | MBCHB/21
+  MED 612  Pharmacology V                  -> Snr. Lec. Brian Kamau           | MBCHB/21
+  MED 613  Microbiology V                  -> Lec. Irene Otieno               | MBCHB/21
+  MED 614  Internal Medicine V             -> Lec. Lucy Wafula                | MBCHB/21
+  MED 615  Surgery V                       -> Asst. Lec. David Kariuki        | MBCHB/21
+  MED 616  Radiology V                     -> Jr. Lec. Brian Kariuki          | MBCHB/21
+  MED 617  Dermatology V                   -> Prof. James Mwangi              | MBCHB/21
+  MED 618  Psychiatry V                    -> Prof. Jane Mwangi               | MBCHB/21
+  MED 619  Ophthalmology V                 -> Snr. Lec. Winnie Kamau          | MBCHB/21
+  PHY 111  Medical Physiology              -> Lec. Peter Omondi               | MBCHB/26
+
+Education Arts
+  COM 101  Communication Skills            -> Prof. Purity Onyango            | BCOM/26, BED-ARTS/26, BPHARM/26, BSC-AGR/26, BSC-CE/26, CS/26, LLB/26, MBCHB/26
+  EDA 111  Foundations of Education I      -> Snr. Lec. Mercy Onyango         | BED-ARTS/26
+  EDA 112  Educational Psychology I        -> Lec. David Chebet               | BED-ARTS/26
+  EDA 113  English Language I              -> Lec. Irene Karanja              | BED-ARTS/26
+  EDA 114  Literature I                    -> Asst. Lec. Kevin Wekesa         | BED-ARTS/26
+  EDA 115  History I                       -> Jr. Lec. Daniel Kilonzo         | BED-ARTS/26
+  EDA 116  Geography I                     -> Prof. Daniel Kiptoo             | BED-ARTS/26
+  EDA 211  Foundations of Education II     -> Snr. Lec. James Wafula          | BED-ARTS/25
+  EDA 212  Educational Psychology II       -> Lec. Naomi Kamau                | BED-ARTS/25
+  EDA 213  English Language II             -> Lec. Lucy Mohamed               | BED-ARTS/25
+  EDA 214  Literature II                   -> Asst. Lec. Felix Omondi         | BED-ARTS/25
+  EDA 215  History II                      -> Jr. Lec. Naomi Mutua            | BED-ARTS/25
+  EDA 216  Special Needs Education I       -> Prof. Grace Rotich              | BED-ARTS/25
+  EDA 217  Christian Religious Education   -> Prof. Purity Onyango            | BED-ARTS/25
+  EDA 218  Sociology of Education I        -> Snr. Lec. Mercy Onyango         | BED-ARTS/25
+  EDA 219  Early Childhood Education I     -> Lec. David Chebet               | BED-ARTS/25
+  EDA 311  Kiswahili II                    -> Lec. Irene Karanja              | BED-ARTS/24
+  EDA 312  Educational Technology II       -> Asst. Lec. Kevin Wekesa         | BED-ARTS/24
+  EDA 313  Foundations of Education III    -> Jr. Lec. Daniel Kilonzo         | BED-ARTS/24
+  EDA 314  Educational Psychology III      -> Prof. Daniel Kiptoo             | BED-ARTS/24
+  EDA 315  English Language III            -> Snr. Lec. James Wafula          | BED-ARTS/24
+  EDA 316  Special Needs Education II      -> Lec. Naomi Kamau                | BED-ARTS/24
+  EDA 317  Christian Religious Education   -> Lec. Lucy Mohamed               | BED-ARTS/24
+  EDA 318  Sociology of Education II       -> Asst. Lec. Felix Omondi         | BED-ARTS/24
+  EDA 319  Early Childhood Education II    -> Jr. Lec. Naomi Mutua            | BED-ARTS/24
+  EDA 411  Teaching Methods III            -> Prof. Grace Rotich              | BED-ARTS/23
+  EDA 412  Educational Assessment III      -> Prof. Purity Onyango            | BED-ARTS/23
+  EDA 413  Guidance and Counselling III    -> Snr. Lec. Mercy Onyango         | BED-ARTS/23
+  EDA 414  Kiswahili III                   -> Lec. David Chebet               | BED-ARTS/23
+  EDA 415  Educational Technology III      -> Lec. Irene Karanja              | BED-ARTS/23
+  EDA 416  Special Needs Education III     -> Asst. Lec. Kevin Wekesa         | BED-ARTS/23
+  EDA 417  Christian Religious Education   -> Jr. Lec. Daniel Kilonzo         | BED-ARTS/23
+  EDA 418  Sociology of Education III      -> Prof. Daniel Kiptoo             | BED-ARTS/23
+  EDA 419  Early Childhood Education III   -> Snr. Lec. James Wafula          | BED-ARTS/23
+  EDU 111  Foundations of Education        -> Lec. Naomi Kamau                | BED-ARTS/26
+  EDU 112  Educational Psychology          -> Lec. Lucy Mohamed               | BED-ARTS/26
+  ENG 111  English Grammar and Usage       -> Asst. Lec. Felix Omondi         | BED-ARTS/26
+  HIS 111  History of Kenya                -> Jr. Lec. Naomi Mutua            | BED-ARTS/26
+  HIV 101  HIV/AIDS and Life Skills        -> Prof. Grace Rotich              | BCOM/26, BED-ARTS/26, BPHARM/26, BSC-AGR/26, BSC-CE/26, CS/26, LLB/26, MBCHB/26
+
+Mathematics and Computer Science
+  CSC 111  Programming I                   -> Prof. Joseph Langat             | CS/26
+  CSC 112  Data Structures and Algorithms  -> Snr. Lec. James Kilonzo         | CS/26
+  CSC 113  Computer Architecture I         -> Lec. Esther Mutua               | CS/26
+  CSC 114  Operating Systems I             -> Lec. Caroline Barasa            | CS/26
+  CSC 115  Database Systems I              -> Asst. Lec. Kevin Kariuki        | CS/26
+  CSC 116  Software Engineering I          -> Jr. Lec. Irene Kiptoo           | CS/26
+  CSC 211  Programming II                  -> Prof. Ann Kilonzo               | CS/25
+  CSC 212  Data Structures and Algorithms  -> Snr. Lec. Beatrice Mohamed      | CS/25
+  CSC 213  Computer Architecture II        -> Lec. Beatrice Wafula            | CS/25
+  CSC 214  Operating Systems II            -> Lec. Faith Kiptoo               | CS/25
+  CSC 215  Database Systems II             -> Asst. Lec. Mercy Kilonzo        | CS/25
+  CSC 216  Artificial Intelligence I       -> Jr. Lec. Purity Kiptoo          | CS/25
+  CSC 217  Mobile Application Development  -> Prof. Irene Kilonzo             | CS/25
+  CSC 218  Cloud Computing I               -> Prof. Joseph Langat             | CS/25
+  CSC 219  Cybersecurity I                 -> Snr. Lec. James Kilonzo         | CS/25
+  CSC 311  Probability and Statistics II   -> Lec. Esther Mutua               | CS/24
+  CSC 312  Web Development II              -> Lec. Caroline Barasa            | CS/24
+  CSC 313  Programming III                 -> Asst. Lec. Kevin Kariuki        | CS/24
+  CSC 314  Data Structures and Algorithms  -> Jr. Lec. Irene Kiptoo           | CS/24
+  CSC 315  Computer Architecture III       -> Prof. Ann Kilonzo               | CS/24
+  CSC 316  Artificial Intelligence II      -> Snr. Lec. Beatrice Mohamed      | CS/24
+  CSC 317  Mobile Application Development  -> Lec. Beatrice Wafula            | CS/24
+  CSC 318  Cloud Computing II              -> Lec. Faith Kiptoo               | CS/24
+  CSC 319  Cybersecurity II                -> Asst. Lec. Mercy Kilonzo        | CS/24
+  CSC 411  Discrete Mathematics III        -> Jr. Lec. Purity Kiptoo          | CS/23
+  CSC 412  Calculus III                    -> Prof. Irene Kilonzo             | CS/23
+  CSC 413  Linear Algebra III              -> Prof. Joseph Langat             | CS/23
+  CSC 414  Probability and Statistics III  -> Snr. Lec. James Kilonzo         | CS/23
+  CSC 415  Web Development III             -> Lec. Esther Mutua               | CS/23
+  CSC 416  Artificial Intelligence III     -> Lec. Caroline Barasa            | CS/23
+  CSC 417  Mobile Application Development  -> Asst. Lec. Kevin Kariuki        | CS/23
+  CSC 418  Cloud Computing III             -> Jr. Lec. Irene Kiptoo           | CS/23
+  CSC 419  Cybersecurity III               -> Prof. Ann Kilonzo               | CS/23
+
+Pharmacy
+  PHM 111  Pharmaceutical Chemistry I      -> Prof. Collins Odhiambo          | BPHARM/26
+  PHM 112  Pharmacognosy I                 -> Snr. Lec. Brian Mutua           | BPHARM/26
+  PHM 113  Pharmaceutics I                 -> Lec. David Otieno               | BPHARM/26
+  PHM 114  Pharmacology I                  -> Lec. Purity Ndungu              | BPHARM/26
+  PHM 115  Physiology I                    -> Asst. Lec. Felix Rotich         | BPHARM/26
+  PHM 116  Pharmaceutical Microbiology I   -> Jr. Lec. James Abdi             | BPHARM/26
+  PHM 211  Pharmaceutical Chemistry II     -> Prof. David Odhiambo            | BPHARM/25
+  PHM 212  Pharmacognosy II                -> Snr. Lec. Irene Omondi          | BPHARM/25
+  PHM 213  Pharmaceutics II                -> Lec. Brian Odhiambo             | BPHARM/25
+  PHM 214  Pharmacology II                 -> Lec. Collins Langat             | BPHARM/25
+  PHM 215  Physiology II                   -> Asst. Lec. James Otieno         | BPHARM/25
+  PHM 216  Clinical Pharmacy I             -> Jr. Lec. Purity Mohamed         | BPHARM/25
+  PHM 217  Pharmacoeconomics I             -> Prof. Grace Abdi                | BPHARM/25
+  PHM 218  Herbal Medicine I               -> Prof. Collins Odhiambo          | BPHARM/25
+  PHM 219  Hospital Pharmacy I             -> Snr. Lec. Brian Mutua           | BPHARM/25
+  PHM 311  Toxicology II                   -> Lec. David Otieno               | BPHARM/24
+  PHM 312  Pharmacy Law and Ethics II      -> Lec. Purity Ndungu              | BPHARM/24
+  PHM 313  Pharmaceutical Chemistry III    -> Asst. Lec. Felix Rotich         | BPHARM/24
+  PHM 314  Pharmacognosy III               -> Jr. Lec. James Abdi             | BPHARM/24
+  PHM 315  Pharmaceutics III               -> Prof. David Odhiambo            | BPHARM/24
+  PHM 316  Clinical Pharmacy II            -> Snr. Lec. Irene Omondi          | BPHARM/24
+  PHM 317  Pharmacoeconomics II            -> Lec. Brian Odhiambo             | BPHARM/24
+  PHM 318  Herbal Medicine II              -> Lec. Collins Langat             | BPHARM/24
+  PHM 319  Hospital Pharmacy II            -> Asst. Lec. James Otieno         | BPHARM/24
+  PHM 411  Pharmaceutical Analysis III     -> Jr. Lec. Purity Mohamed         | BPHARM/23
+  PHM 412  Biopharmaceutics III            -> Prof. Grace Abdi                | BPHARM/23
+  PHM 413  Toxicology III                  -> Prof. Collins Odhiambo          | BPHARM/23
+  PHM 414  Pharmacy Law and Ethics III     -> Snr. Lec. Brian Mutua           | BPHARM/23
+  PHM 415  Pharmaceutical Chemistry IV     -> Lec. David Otieno               | BPHARM/23
+  PHM 416  Clinical Pharmacy III           -> Lec. Purity Ndungu              | BPHARM/23
+  PHM 417  Pharmacoeconomics III           -> Asst. Lec. Felix Rotich         | BPHARM/23
+  PHM 418  Herbal Medicine III             -> Jr. Lec. James Abdi             | BPHARM/23
+  PHM 419  Hospital Pharmacy III           -> Prof. David Odhiambo            | BPHARM/23
+  PHM 511  Pharmaceutical Microbiology IV  -> Snr. Lec. Irene Omondi          | BPHARM/22
+  PHM 512  Medicinal Chemistry IV          -> Lec. Brian Odhiambo             | BPHARM/22
+  PHM 513  Pharmacy Practice IV            -> Lec. Collins Langat             | BPHARM/22
+  PHM 514  Pharmaceutical Analysis IV      -> Asst. Lec. James Otieno         | BPHARM/22
+  PHM 515  Biopharmaceutics IV             -> Jr. Lec. Purity Mohamed         | BPHARM/22
+  PHM 516  Clinical Pharmacy IV            -> Prof. Grace Abdi                | BPHARM/22
+  PHM 517  Pharmacoeconomics IV            -> Prof. Collins Odhiambo          | BPHARM/22
+  PHM 518  Herbal Medicine IV              -> Snr. Lec. Brian Mutua           | BPHARM/22
+  PHM 519  Hospital Pharmacy IV            -> Lec. David Otieno               | BPHARM/22
+
+Private Law
+  LAW 111  Legal Method I                  -> Prof. Faith Otieno              | LLB/26
+  LAW 112  Constitutional Law I            -> Snr. Lec. Felix Karanja         | LLB/26
+  LAW 113  Law of Contract I               -> Lec. Daniel Mwangi              | LLB/26
+  LAW 114  Criminal Law I                  -> Lec. Victor Rotich              | LLB/26
+  LAW 115  Law of Tort I                   -> Asst. Lec. Naomi Kariuki        | LLB/26
+  LAW 116  Property Law I                  -> Jr. Lec. Felix Langat           | LLB/26
+  LAW 211  Legal Method II                 -> Prof. Brian Cheruiyot           | LLB/25
+  LAW 212  Constitutional Law II           -> Snr. Lec. Faith Mwangi          | LLB/25
+  LAW 213  Law of Contract II              -> Lec. Jane Barasa                | LLB/25
+  LAW 214  Criminal Law II                 -> Lec. Victor Wekesa              | LLB/25
+  LAW 215  Law of Tort II                  -> Asst. Lec. Samuel Wekesa        | LLB/25
+  LAW 216  Intellectual Property Law I     -> Jr. Lec. Isaac Chebet           | LLB/25
+  LAW 217  Environmental Law I             -> Prof. Rose Onyango              | LLB/25
+  LAW 218  Human Rights Law I              -> Prof. Faith Otieno              | LLB/25
+  LAW 219  Labour Law I                    -> Snr. Lec. Felix Karanja         | LLB/25
+  LAW 311  Family Law II                   -> Lec. Daniel Mwangi              | LLB/24
+  LAW 312  Company Law II                  -> Lec. Victor Rotich              | LLB/24
+  LAW 313  Legal Method III                -> Asst. Lec. Naomi Kariuki        | LLB/24
+  LAW 314  Constitutional Law III          -> Jr. Lec. Felix Langat           | LLB/24
+  LAW 315  Law of Contract III             -> Prof. Brian Cheruiyot           | LLB/24
+  LAW 316  Intellectual Property Law II    -> Snr. Lec. Faith Mwangi          | LLB/24
+  LAW 317  Environmental Law II            -> Lec. Jane Barasa                | LLB/24
+  LAW 318  Human Rights Law II             -> Lec. Victor Wekesa              | LLB/24
+  LAW 319  Labour Law II                   -> Asst. Lec. Samuel Wekesa        | LLB/24
+  LAW 411  Land Law III                    -> Jr. Lec. Isaac Chebet           | LLB/23
+  LAW 412  Law of Evidence III             -> Prof. Rose Onyango              | LLB/23
+  LAW 413  Civil Procedure III             -> Prof. Faith Otieno              | LLB/23
+  LAW 414  Family Law III                  -> Snr. Lec. Felix Karanja         | LLB/23
+  LAW 415  Company Law III                 -> Lec. Daniel Mwangi              | LLB/23
+  LAW 416  Intellectual Property Law III   -> Lec. Victor Rotich              | LLB/23
+  LAW 417  Environmental Law III           -> Asst. Lec. Naomi Kariuki        | LLB/23
+  LAW 418  Human Rights Law III            -> Jr. Lec. Felix Langat           | LLB/23
+  LAW 419  Labour Law III                  -> Prof. Brian Cheruiyot           | LLB/23
+
+Lecturer workload (hours/week)
+  NU/LEC/0001   Prof. Daniel Ndungu             Agricultural Sciences             9/40
+  NU/LEC/0002   Snr. Lec. David Mwangi          Agricultural Sciences             9/40
+  NU/LEC/0003   Lec. Rose Odhiambo              Agricultural Sciences             9/40
+  NU/LEC/0004   Lec. Beatrice Mutua             Agricultural Sciences             9/40
+  NU/LEC/0005   Asst. Lec. Winnie Simiyu        Agricultural Sciences             9/40
+  NU/LEC/0006   Jr. Lec. Ann Rotich             Agricultural Sciences             9/40
+  NU/LEC/0007   Prof. Mercy Mohamed             Agricultural Sciences             9/40
+  NU/LEC/0008   Snr. Lec. Joseph Onyango        Agricultural Sciences            10/40
+  NU/LEC/0009   Lec. Faith Mohamed              Agricultural Sciences             6/40
+  NU/LEC/0010   Lec. Collins Simiyu             Agricultural Sciences             6/40
+  NU/LEC/0011   Asst. Lec. Kevin Wafula         Agricultural Sciences             6/40
+  NU/LEC/0012   Jr. Lec. James Mutua            Agricultural Sciences             6/40
+  NU/LEC/0013   Prof. Nelson Rotich             Agricultural Sciences             6/40
+  NU/LEC/0014   Prof. Caroline Mutua            Business Administration           9/40
+  NU/LEC/0015   Snr. Lec. Ann Wekesa            Business Administration           9/40
+  NU/LEC/0016   Lec. James Omondi               Business Administration           9/40
+  NU/LEC/0017   Lec. Purity Omondi              Business Administration           9/40
+  NU/LEC/0018   Asst. Lec. James Cheruiyot      Business Administration           9/40
+  NU/LEC/0019   Jr. Lec. Samuel Mutua           Business Administration           9/40
+  NU/LEC/0020   Prof. Felix Kiptoo              Business Administration           9/40
+  NU/LEC/0021   Snr. Lec. Esther Wekesa         Business Administration           9/40
+  NU/LEC/0022   Lec. Collins Rotich             Business Administration           9/40
+  NU/LEC/0023   Lec. Lucy Otieno                Business Administration           6/40
+  NU/LEC/0024   Asst. Lec. Isaac Ndungu         Business Administration           6/40
+  NU/LEC/0025   Jr. Lec. Joseph Omondi          Business Administration           6/40
+  NU/LEC/0026   Prof. Victor Simiyu             Business Administration           6/40
+  NU/LEC/0027   Prof. Naomi Karanja             Civil Engineering                12/40
+  NU/LEC/0028   Snr. Lec. Daniel Odhiambo       Civil Engineering                12/40
+  NU/LEC/0029   Lec. Ann Wafula                 Civil Engineering                12/40
+  NU/LEC/0030   Lec. Victor Kiptoo              Civil Engineering                12/40
+  NU/LEC/0031   Asst. Lec. Esther Abdi          Civil Engineering                 9/40
+  NU/LEC/0032   Jr. Lec. Ann Karanja            Civil Engineering                 9/40
+  NU/LEC/0033   Prof. Dennis Otieno             Civil Engineering                 9/40
+  NU/LEC/0034   Snr. Lec. Irene Ndungu          Civil Engineering                 9/40
+  NU/LEC/0035   Lec. Ann Chebet                 Civil Engineering                 9/40
+  NU/LEC/0036   Lec. Beatrice Langat            Civil Engineering                 9/40
+  NU/LEC/0037   Asst. Lec. Mercy Omondi         Civil Engineering                 9/40
+  NU/LEC/0038   Jr. Lec. Esther Kiptoo          Civil Engineering                 9/40
+  NU/LEC/0039   Prof. Isaac Rotich              Civil Engineering                 9/40
+  NU/LEC/0040   Prof. Jane Mwangi               Clinical Medicine                13/40
+  NU/LEC/0041   Snr. Lec. Winnie Kamau          Clinical Medicine                15/40
+  NU/LEC/0042   Lec. Peter Omondi               Clinical Medicine                16/40
+  NU/LEC/0043   Lec. Esther Omondi              Clinical Medicine                12/40
+  NU/LEC/0044   Asst. Lec. Beatrice Mwangi      Clinical Medicine                12/40
+  NU/LEC/0045   Jr. Lec. Naomi Rotich           Clinical Medicine                12/40
+  NU/LEC/0046   Prof. Brian Wekesa              Clinical Medicine                12/40
+  NU/LEC/0047   Snr. Lec. Brian Kamau           Clinical Medicine                12/40
+  NU/LEC/0048   Lec. Irene Otieno               Clinical Medicine                12/40
+  NU/LEC/0049   Lec. Lucy Wafula                Clinical Medicine                12/40
+  NU/LEC/0050   Asst. Lec. David Kariuki        Clinical Medicine                12/40
+  NU/LEC/0051   Jr. Lec. Brian Kariuki          Clinical Medicine                12/40
+  NU/LEC/0052   Prof. James Mwangi              Clinical Medicine                12/40
+  NU/LEC/0053   Prof. Purity Onyango            Education Arts                    9/40
+  NU/LEC/0054   Snr. Lec. Mercy Onyango         Education Arts                    9/40
+  NU/LEC/0055   Lec. David Chebet               Education Arts                    9/40
+  NU/LEC/0056   Lec. Irene Karanja              Education Arts                    9/40
+  NU/LEC/0057   Asst. Lec. Kevin Wekesa         Education Arts                    9/40
+  NU/LEC/0058   Jr. Lec. Daniel Kilonzo         Education Arts                    9/40
+  NU/LEC/0059   Prof. Daniel Kiptoo             Education Arts                    9/40
+  NU/LEC/0060   Snr. Lec. James Wafula          Education Arts                    9/40
+  NU/LEC/0061   Lec. Naomi Kamau                Education Arts                    9/40
+  NU/LEC/0062   Lec. Lucy Mohamed               Education Arts                    9/40
+  NU/LEC/0063   Asst. Lec. Felix Omondi         Education Arts                    9/40
+  NU/LEC/0064   Jr. Lec. Naomi Mutua            Education Arts                    9/40
+  NU/LEC/0065   Prof. Grace Rotich              Education Arts                    9/40
+  NU/LEC/0066   Prof. Joseph Langat             Mathematics and Computer Scien    9/40
+  NU/LEC/0067   Snr. Lec. James Kilonzo         Mathematics and Computer Scien    9/40
+  NU/LEC/0068   Lec. Esther Mutua               Mathematics and Computer Scien    9/40
+  NU/LEC/0069   Lec. Caroline Barasa            Mathematics and Computer Scien    9/40
+  NU/LEC/0070   Asst. Lec. Kevin Kariuki        Mathematics and Computer Scien    9/40
+  NU/LEC/0071   Jr. Lec. Irene Kiptoo           Mathematics and Computer Scien    9/40
+  NU/LEC/0072   Prof. Ann Kilonzo               Mathematics and Computer Scien    9/40
+  NU/LEC/0073   Snr. Lec. Beatrice Mohamed      Mathematics and Computer Scien    6/40
+  NU/LEC/0074   Lec. Beatrice Wafula            Mathematics and Computer Scien    6/40
+  NU/LEC/0075   Lec. Faith Kiptoo               Mathematics and Computer Scien    6/40
+  NU/LEC/0076   Asst. Lec. Mercy Kilonzo        Mathematics and Computer Scien    6/40
+  NU/LEC/0077   Jr. Lec. Purity Kiptoo          Mathematics and Computer Scien    6/40
+  NU/LEC/0078   Prof. Irene Kilonzo             Mathematics and Computer Scien    6/40
+  NU/LEC/0079   Prof. Collins Odhiambo          Pharmacy                         12/40
+  NU/LEC/0080   Snr. Lec. Brian Mutua           Pharmacy                         12/40
+  NU/LEC/0081   Lec. David Otieno               Pharmacy                         12/40
+  NU/LEC/0082   Lec. Purity Ndungu              Pharmacy                          9/40
+  NU/LEC/0083   Asst. Lec. Felix Rotich         Pharmacy                          9/40
+  NU/LEC/0084   Jr. Lec. James Abdi             Pharmacy                          9/40
+  NU/LEC/0085   Prof. David Odhiambo            Pharmacy                          9/40
+  NU/LEC/0086   Snr. Lec. Irene Omondi          Pharmacy                          9/40
+  NU/LEC/0087   Lec. Brian Odhiambo             Pharmacy                          9/40
+  NU/LEC/0088   Lec. Collins Langat             Pharmacy                          9/40
+  NU/LEC/0089   Asst. Lec. James Otieno         Pharmacy                          9/40
+  NU/LEC/0090   Jr. Lec. Purity Mohamed         Pharmacy                          9/40
+  NU/LEC/0091   Prof. Grace Abdi                Pharmacy                          9/40
+  NU/LEC/0092   Prof. Faith Otieno              Private Law                       9/40
+  NU/LEC/0093   Snr. Lec. Felix Karanja         Private Law                       9/40
+  NU/LEC/0094   Lec. Daniel Mwangi              Private Law                       9/40
+  NU/LEC/0095   Lec. Victor Rotich              Private Law                       9/40
+  NU/LEC/0096   Asst. Lec. Naomi Kariuki        Private Law                       9/40
+  NU/LEC/0097   Jr. Lec. Felix Langat           Private Law                       9/40
+  NU/LEC/0098   Prof. Brian Cheruiyot           Private Law                       9/40
+  NU/LEC/0099   Snr. Lec. Faith Mwangi          Private Law                       6/40
+  NU/LEC/0100   Lec. Jane Barasa                Private Law                       6/40
+  NU/LEC/0101   Lec. Victor Wekesa              Private Law                       6/40
+  NU/LEC/0102   Asst. Lec. Samuel Wekesa        Private Law                       6/40
+  NU/LEC/0103   Jr. Lec. Isaac Chebet           Private Law                       6/40
+  NU/LEC/0104   Prof. Rose Onyango              Private Law                       6/40
+
+Assignments created: 313, already assigned: 0, unassigned: 0
