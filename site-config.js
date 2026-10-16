@@ -12,7 +12,7 @@ window.NAET_CONTACT = {
     { type: "email", label: "EMAIL", value: "naetrecords.help@gmail.com" },
     { type: "phone", label: "PHONE", value: "0180793705" },
     { type: "whatsapp", label: "WHATSAPP", value: "0180793705" },
-    { type: "link", label: "BOOK A CALL", value: "Pick a time", href: "" },
+    { type: "link", label: "BOOK A CALL", value: "", href: "" },
     { type: "text", label: "OFFICE", value: "" },
   ],
 };
