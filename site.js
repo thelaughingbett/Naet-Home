@@ -54,8 +54,22 @@
       document.body.appendChild(dlg);
     }
 
-    function digits(s) {
-      return String(s).replace(/[^\d+]/g, "");
+    // Converts 0712345678, +254712345678 or 254712345678 to 254712345678
+    function intl(s) {
+      var cc = cfg.countryCode || "254";
+      var d = String(s).replace(/[^\d+]/g, "");
+      if (d.charAt(0) === "+") return d.slice(1);
+      if (d.indexOf("00") === 0) return d.slice(2);
+      if (d.charAt(0) === "0") return cc + d.slice(1);
+      return d;
+    }
+
+    function waLink(value, text) {
+      return (
+        "https://wa.me/" +
+        intl(value) +
+        (text ? "?text=" + encodeURIComponent(text) : "")
+      );
     }
 
     function hrefFor(ch, topic) {
@@ -67,13 +81,9 @@
             (topic ? "?subject=" + encodeURIComponent(topic) : "")
           );
         case "phone":
-          return "tel:" + digits(ch.value);
+          return "tel:+" + intl(ch.value);
         case "whatsapp":
-          return (
-            "https://wa.me/" +
-            digits(ch.value).replace("+", "") +
-            (topic ? "?text=" + encodeURIComponent(topic) : "")
-          );
+          return waLink(ch.value, topic || cfg.whatsappMessage || "");
         case "link":
           return ch.href || "";
         default:
@@ -170,6 +180,25 @@
         dlg.close();
       else if (dlg && e.target === dlg) dlg.close();
     });
+
+    // Floating WhatsApp button
+    (function () {
+      if (cfg.floatingWhatsApp === false) return;
+      var wa = (cfg.channels || []).filter(function (c) {
+        return c && c.type === "whatsapp" && c.value;
+      })[0];
+      if (!wa) return;
+      var a = document.createElement("a");
+      a.className = "wa-float";
+      a.href = waLink(wa.value, cfg.whatsappMessage || "");
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.setAttribute("aria-label", "Chat with us on WhatsApp");
+      a.innerHTML =
+        '<svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" fill="currentColor"><path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.3.7 4.5 1.9 6.3L4 29l8-2.1c1.7.9 3.6 1.4 5.6 1.4h.1c6.6 0 11.9-5.3 11.9-11.9C29.6 8.8 23.2 3 16 3zm0 22.6c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.7 1.2 1.3-4.6-.3-.4a9.6 9.6 0 0 1-1.5-5.1C5.4 9.9 10.1 5.2 16 5.2s10.6 4.7 10.6 10.6S21.9 25.6 16 25.6zm5.8-7.2c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.8 5.1.8.4 1.4.6 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>' +
+        "<span>Chat on WhatsApp</span>";
+      document.body.appendChild(a);
+    })();
 
     if (location.hash === "#contact") open("");
   })();

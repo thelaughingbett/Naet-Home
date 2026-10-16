@@ -7,7 +7,9 @@ window.NAET_CONTACT = {
   intro:
     "Pick whichever channel suits you. We'll walk through your programmes, grading policy, and escalation chain.",
   note: "Typical response time: within one working day.",
-  // type: "email" | "phone" | "whatsapp" | "link" | "text"
+  countryCode: "254",
+  whatsappMessage: "Hello Naet, I'd like to request a walkthrough.",
+  floatingWhatsApp: false, // set false to hide the floating button
   channels: [
     { type: "email", label: "EMAIL", value: "naetrecords.help@gmail.com" },
     { type: "phone", label: "PHONE", value: "0180793705" },

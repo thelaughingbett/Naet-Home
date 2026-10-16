@@ -1114,7 +1114,6 @@
         var note = cfg.note || "Demo resets every 24 hours";
         var credUrl = cfg.credentialsUrl || "";
         var btn = $("demo-request-btn");
-        var reqNote = $("demo-request-note");
 
         if (credUrl) {
           btn.href = credUrl;
@@ -1122,15 +1121,6 @@
           btn.rel = "noopener";
           btn.removeAttribute("data-contact-topic");
           btn.textContent = cfg.credentialsLabel || "Get credentials";
-          var span = reqNote.querySelector("span");
-          span.textContent = "Demo credentials for each role are published ";
-          var a = document.createElement("a");
-          a.href = credUrl;
-          a.target = "_blank";
-          a.rel = "noopener";
-          a.textContent = "here";
-          span.appendChild(a);
-          span.appendChild(document.createTextNode("."));
         }
 
         if (!creds.length) {

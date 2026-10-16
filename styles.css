@@ -2063,3 +2063,37 @@ table.data tr:last-child td {
     background: #fff;
   }
 }
+
+.wa-float {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: #25d366;
+  color: #fff;
+  font:
+    600 0.9rem "IBM Plex Sans",
+    sans-serif;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+.wa-float:hover {
+  background: #1ebe5a;
+}
+.wa-float:focus-visible {
+  outline: 3px solid #e8b75c;
+  outline-offset: 2px;
+}
+@media (max-width: 600px) {
+  .wa-float span {
+    display: none;
+  } /* icon only on phones */
+  .wa-float {
+    padding: 0.85rem;
+  }
+}
