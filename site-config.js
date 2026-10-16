@@ -17,6 +17,16 @@ window.NAET_CONTACT = {
   ],
 };
 
+window.NAET_VIDEO = {
+  // YouTube or Vimeo link, or a video file next to the site (e.g. "overview.mp4").
+  // Leave url empty ("") and every "Watch" button stays hidden.
+  url: "./The_Layered_Fortress.mp4",
+  title: "Naet at  glance ",
+  caption: "",
+  // Optional poster image for a video file, e.g. "overview-poster.jpg"
+  poster: "",
+};
+
 window.NAET_DEMO = {
   url: "https://naet-tat2.onrender.com/",
   note: "Demo resets every 24 hours",

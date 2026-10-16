@@ -6,7 +6,7 @@
     <title>Naet — The system of record for universities</title>
     <meta
       name="description"
-      content="Naet is a university system of record for Kenyan institutions. Admissions, curriculum, grading, fees, residence, and grievances — one shared, versioned backend, self-hosted on your own infrastructure."
+      content="Naet is a university system of record for Kenyan institutions. Admissions, curriculum, grading, fees, residence, and grievances — one shared, versioned backend. Ready to deploy, and open to the custom features your institution needs."
     />
     <meta
       property="og:title"
@@ -14,7 +14,7 @@
     />
     <meta
       property="og:description"
-      content="One record for admissions, grading, fees, residence and grievances. Self-hosted, auditable, built for Kenyan institutions."
+      content="One record for admissions, grading, fees, residence and grievances. Ready to deploy, open to your custom features, auditable, built for Kenyan institutions."
     />
     <meta property="og:type" content="website" />
     <meta name="theme-color" content="#0f1a2b" />
@@ -101,12 +101,19 @@
               <a href="modules.html" class="btn btn--ghost btn--large"
                 >Browse the modules</a
               >
+              <a
+                href="#video"
+                class="btn btn--ghost btn--large"
+                data-video-trigger
+                hidden
+                >▶ Watch the overview</a
+              >
             </div>
             <div class="hero__note">
               <span class="tick">✓</span>
               <span
-                >Self-hosted on your own infrastructure — your servers, your
-                data.</span
+                >Ready for use today — and open to the custom features your
+                institution needs.</span
               >
             </div>
           </div>
@@ -160,9 +167,10 @@
             </div>
           </div>
           <div class="stat">
-            <div class="stat__num">5</div>
+            <div class="stat__num">7</div>
             <div class="stat__label">
-              pluggable subsystems: payments, ERP, notifications, events, news
+              pluggable subsystems: payments, ERP, notifications, events, news,
+              PDFs, results import
             </div>
           </div>
           <div class="stat">
@@ -391,11 +399,12 @@
             <div class="eyebrow">ARCHITECTURE</div>
             <h2>Built to be extended, not replaced.</h2>
             <p>
-              Naet is a template, not a finished platform. The integration layer
-              is generic and event-driven: every subsystem — payments, ERP sync,
-              notifications, events, news — follows the same pattern. Core holds
-              abstract contracts. Implementations live in <code>contrib/</code>.
-              Register one class and it works.
+              Naet is ready to run, and built to be extended. The integration
+              layer is generic: every subsystem — payments, ERP sync,
+              notifications, events, news, PDF rendering and results import —
+              follows the same pattern. Core holds abstract contracts.
+              Implementations live in <code>contrib/</code>. Register one class
+              and it works.
             </p>
           </div>
 
@@ -468,9 +477,11 @@
               </div>
               <div class="arch-card__body">
                 <p>
-                  Adding a new payment provider, notification channel, calendar
-                  source, or news feed follows the same three-step pattern
-                  everywhere. No provider-specific code ever lives in core.
+                  Adding a new payment provider, notification channel, PDF
+                  engine, results source, calendar source, or news feed follows
+                  the same pattern everywhere. Timetable and exam schedulers can
+                  be swapped the same way. No provider-specific code ever lives
+                  in core.
                 </p>
                 <ul
                   class="plugin-list"
@@ -481,6 +492,8 @@
                   <li>notifications</li>
                   <li>events</li>
                   <li>news</li>
+                  <li>pdf engine</li>
+                  <li>results import</li>
                 </ul>
                 <p style="margin-top: 1rem">
                   Each subsystem exposes an abstract base class, a registry, and
@@ -512,21 +525,25 @@
       <section class="opensource" id="opensource">
         <div class="wrap opensource__grid">
           <div>
-            <div class="opensource__label">&lt;/&gt; SELF-HOSTED</div>
-            <h2>Your university's records stay on your servers.</h2>
+            <div class="opensource__label">
+              &lt;/&gt; YOUR CHOICE OF HOSTING
+            </div>
+            <h2>Host it yourself, or have it hosted for you.</h2>
             <p class="opensource__lede">
-              Naet is deployed on infrastructure your institution controls.
-              Student records, fee ledgers, and audit history never sit in a
-              vendor's multi-tenant cloud.
+              Naet runs on infrastructure your institution controls, or on a
+              vendor-hosted deployment if that suits your budget and ICT
+              capacity. Either way it is your institution's own instance, not a
+              shared multi-tenant system.
             </p>
             <ul class="opensource__points">
               <li>
                 <span class="glyph">§</span
                 ><span
-                  ><strong>Self-hosted on your infrastructure</strong
+                  ><strong>Self-hosted or vendor-hosted</strong
                   ><span
-                    >Student records live on servers your institution controls —
-                    not in a vendor's multi-tenant cloud.</span
+                    >Run it on your own servers, or have a vendor host and
+                    maintain it. The institution decides, based on budget and
+                    in-house capacity.</span
                   ></span
                 >
               </li>
@@ -535,9 +552,11 @@
                 ><span
                   ><strong>Extend it to fit</strong
                   ><span
-                    >Add the integrations your institution needs — an eLearning
-                    platform, a payment gateway, a national reporting feed —
-                    with the same register-one-class pattern.</span
+                    >The core is ready to use as it stands, and your institution
+                    can commission custom features on top of it. Add the
+                    integrations you need — an eLearning platform, a payment
+                    gateway, a national reporting feed — with the same
+                    register-one-class pattern.</span
                   ></span
                 >
               </li>
@@ -569,7 +588,9 @@
                 </div>
                 <div class="licence-row">
                   <dt>DEPLOY</dt>
-                  <dd>Self-hosted — your servers, your data</dd>
+                  <dd>
+                    Self-hosted, or vendor-hosted — the institution decides
+                  </dd>
                 </div>
                 <div class="licence-row">
                   <dt>BACKGROUND JOBS</dt>
@@ -621,6 +642,13 @@
                 id="demo-request-btn"
                 class="btn btn--outline-light btn--large"
                 >Request credentials</a
+              >
+              <a
+                href="#video"
+                class="btn btn--outline-light btn--large"
+                data-video-trigger
+                hidden
+                >▶ Watch the overview</a
               >
             </div>
             <div class="demo-creds" id="demo-creds" hidden></div>
@@ -811,20 +839,28 @@
             <details>
               <summary>Where does our data live?</summary>
               <p>
-                On infrastructure your institution controls. Naet is
-                self-hosted: PostgreSQL on your servers, with uploads and audit
-                history alongside it. Nothing sits in a shared vendor cloud.
+                That is the institution's decision. Naet can be self-hosted:
+                PostgreSQL on your own servers, with uploads and audit history
+                alongside it. Or it can be hosted by a vendor, which suits
+                institutions with budget or ICT-staffing constraints. In both
+                cases it is your institution's own instance and database, not a
+                shared multi-tenant system, and the compliance page covers what
+                to settle in a hosting agreement.
               </p>
             </details>
             <details>
               <summary>Is it finished, or a starting point?</summary>
               <p>
-                Both, deliberately. The student lifecycle, grading, fees, exams,
-                complaints and clubs are built. Some staff-side case handling is
-                still rolling out: Head-of-Department level is available today,
-                with Dean, student council, Dean of Students and Registrar
-                levels planned. The modules page marks what is live and what is
-                planned.
+                It is ready for use, and open to custom features. The student
+                lifecycle, grading, fees, exams, complaints and clubs are built
+                and working, so an institution can deploy it for its core
+                operations now. Beyond that, each university can commission
+                features that fit its own rules: its own grading policy,
+                integrations, reports and workflows. Staff-side case handling is
+                rolling out in stages: Head-of-Department level is available
+                today, with Dean, student council, Dean of Students and
+                Registrar levels planned. The modules page marks what is live
+                and what is planned.
               </p>
             </details>
             <details>
@@ -832,11 +868,12 @@
                 Can we connect it to our existing ERP or payment provider?
               </summary>
               <p>
-                Yes. Payments, ERP sync, notifications, events and news all use
-                the same pattern: an abstract contract in core, your
-                implementation in <code>contrib/</code> or your own app. ERP
-                syncs run in the background with exponential-backoff retries, so
-                a slow external system never blocks a student.
+                Yes. Payments, ERP sync, notifications, events, news, PDF
+                rendering and results import all use the same pattern: an
+                abstract contract in core, your implementation in
+                <code>contrib/</code> or your own app. ERP syncs run in the
+                background with exponential-backoff retries, so a slow external
+                system never blocks a student.
               </p>
             </details>
             <details>
@@ -857,6 +894,56 @@
                 the reasons attached, and always reviewable by a person. Machine
                 learning is held back until there are several years of data. See
                 the analytics page.
+              </p>
+              <p>
+                <strong>Grades themselves are not an algorithm either.</strong>
+                A final grade is a transparent formula the institution
+                configures: weighted components (for example CAT 30%, Exam 70%),
+                each combined by a stated rule such as average of all, best N,
+                or latest N. The score is then matched to a grading scale and a
+                pass mark set per course. Incomplete results show as "in
+                progress", never as a partial number.
+              </p>
+            </details>
+            <details>
+              <summary>
+                How are grades calculated, and can they be changed afterwards?
+              </summary>
+              <p>
+                One grading service produces every grade shown anywhere: the
+                lecturer's results page, the student portal, the transcript, GPA
+                and classification. They cannot disagree.
+              </p>
+              <p>
+                Weighting schemes and grading scales are versioned. A published
+                scheme can't be edited, only revised into a new version. The
+                primary lecturer sets the assessment plan for a unit (how many
+                CATs, marked out of what, how they combine) until results exist,
+                and it locks once they do.
+              </p>
+              <p>
+                Results move through a controlled path. CATs and similar
+                assessments publish immediately. Exam and project results are
+                submitted, approved by the Head of Department, then published.
+                When a grade is finalised it is frozen together with the scheme,
+                scale and pass mark that produced it, so later policy changes
+                never rewrite past transcripts. A correction needs an explicit
+                regrade with a recorded reason, and every change is kept in the
+                audit history. An institution can also cap resit and
+                supplementary scores at the pass mark.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Can we use our own grading scale, weights and rules?
+              </summary>
+              <p>
+                Yes. Grading scales (score bands, grade points and letters),
+                weighting schemes, pass marks and aggregation rules are
+                configuration, not fixed code. Rules such as the progression GPA
+                threshold and honours classification bands are held in one place
+                so they can be adapted to your regulations. Anything beyond
+                configuration can be built as a custom feature.
               </p>
             </details>
             <details>
@@ -886,7 +973,9 @@
             >
             <a href="#contact" class="btn btn--ghost btn--large">Contact us</a>
           </div>
-          <p class="closing__note">Self-hosted · your servers, your data</p>
+          <p class="closing__note">
+            Self-hosted or vendor-hosted · open to custom features
+          </p>
         </div>
       </section>
     </main>
@@ -941,7 +1030,7 @@
         </div>
         <div class="footer__bottom">
           <div>© 2026 Naet.</div>
-          <div class="licence-line">SELF-HOSTED</div>
+          <div class="licence-line">YOUR INSTANCE, YOUR CHOICE OF HOST</div>
         </div>
       </div>
     </footer>
