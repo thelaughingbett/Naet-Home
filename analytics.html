@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analytics — Naet</title>
+    <meta name="description" content="Naet's analytics roadmap: explainable, rule-based at-risk detection first, machine learning only when there is enough data — with privacy and human review built in." />
+    <meta name="theme-color" content="#0f1a2b" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%230f1a2b'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' font-weight='700' text-anchor='middle' fill='%23e8b75c'%3EN%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="letterhead">
+      <div class="wrap letterhead__row">
+        <a href="index.html" class="mark" aria-label="Naet home"><span class="mark__word">Naet</span><span class="mark__sub">UNIVERSITY RECORDS</span></a>
+        <nav class="primary" aria-label="Primary">
+          <a href="modules.html">Modules</a>
+          <a href="index.html#architecture">Architecture</a>
+          <a href="analytics.html">Analytics</a>
+          <a href="compliance.html">Compliance</a>
+          <a href="index.html#demo">Live demo</a>
+        </nav>
+        <div class="letterhead__cta">
+          <a href="#contact" class="btn btn--ghost">Contact us</a>
+          <a href="index.html#demo" class="btn btn--dark">Try the demo</a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+        </div>
+      </div>
+      <div class="wrap mobile-nav" id="mobile-nav" data-open="false">
+        <ul>
+          <li><a href="modules.html">Modules</a></li>
+          <li><a href="index.html#architecture">Architecture</a></li>
+          <li><a href="analytics.html">Analytics</a></li>
+          <li><a href="compliance.html">Compliance</a></li>
+          <li><a href="index.html#demo">Live demo</a></li>
+        </ul>
+        <div class="mobile-cta">
+          <a href="#contact" class="btn btn--ghost">Contact us</a>
+          <a href="index.html#demo" class="btn btn--dark">Try the demo</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-head">
+        <div class="wrap">
+          <div class="crumbs"><a href="index.html">Naet</a> / ANALYTICS</div>
+          <h1>Use the data you already hold to help students early.</h1>
+          <p class="lede">Academic, financial, temporal and behavioural records already live in one place. Analytics turns them into explainable signals for staff, with no new data collection for the first two phases.</p>
+          <p style="margin-top: 1.4rem"><span class="badge badge--planned">PLANNED</span>&nbsp; Design stage — this page describes what is being built, not what is switched on today.</p>
+        </div>
+      </section>
+
+      <section class="page-body">
+        <div class="wrap">
+          <nav class="toc" aria-label="On this page">
+            <a href="#dataset">The dataset</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#at-risk">At-risk scoring</a>
+            <a href="#roles">Who sees what</a>
+            <a href="#ethics">Privacy &amp; ethics</a>
+          </nav>
+
+          <div class="group" id="dataset">
+            <h2>A dataset most institutions don't have in one place</h2>
+            <div class="table-wrap">
+              <table class="data">
+                <thead><tr><th>Type</th><th>Source</th><th>What it enables</th></tr></thead>
+                <tbody>
+                  <tr><td>Academic</td><td>Results, enrollment, curriculum</td><td>Performance tracking, difficulty analysis</td></tr>
+                  <tr><td>Financial</td><td>Fee accounts, payments, overdrafts</td><td>Fee prediction, financial-stress detection</td></tr>
+                  <tr><td>Temporal</td><td>Sessions, reporting</td><td>Trend analysis, trajectory modelling</td></tr>
+                  <tr><td>Demographic</td><td>Student profile</td><td>Equity analysis, regional patterns</td></tr>
+                  <tr><td>Behavioural</td><td>Reporting and enrollment timing</td><td>Engagement signals</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="group" id="roadmap">
+            <h2>Three phases, gated by data</h2>
+            <div class="roadmap">
+              <div class="phase">
+                <div class="phase__tag">PHASE 1</div>
+                <h3>Now</h3>
+                <div class="when">Uses existing data. No machine learning.</div>
+                <ul><li>At-risk student detection</li><li>Session performance dashboard</li><li>Grade trajectory chart on the student portal</li></ul>
+              </div>
+              <div class="phase">
+                <div class="phase__tag">PHASE 2</div>
+                <h3>After 2+ sessions</h3>
+                <div class="when">Needs enough history to compare.</div>
+                <ul><li>Course difficulty index</li><li>Fee collection forecasting</li><li>Lecturer load analysis</li><li>Graduation likelihood scoring</li></ul>
+              </div>
+              <div class="phase">
+                <div class="phase__tag">PHASE 3</div>
+                <h3>After 3+ years</h3>
+                <div class="when">Machine learning, only with real cohorts.</div>
+                <ul><li>Dropout prediction</li><li>Personalised unit recommendations</li><li>Fee payment behaviour modelling</li></ul>
+              </div>
+            </div>
+            <div class="callout">
+              <strong>Phase 3 waits.</strong> An underfitted model is worse than no model — it creates false confidence. Dropout prediction needs at least three cohorts of graduated and dropped students before it is deployed.
+            </div>
+          </div>
+
+          <div class="group" id="at-risk">
+            <h2>At-risk detection, with the reasons attached</h2>
+            <p class="group__intro">A rule-based score from 0 to 100. Nothing is hidden: every point can be traced to a signal staff can read and challenge.</p>
+            <div class="risk">
+              <div class="risk__head"><span>RISK SIGNALS</span><span>MAX POINTS</span></div>
+              <div class="risk__row"><div>Fee balance as a share of total<small>From the student fee account</small></div><div class="pts">up to 30</div></div>
+              <div class="risk__row"><div>Average CAT score below 40<small>From results</small></div><div class="pts">30</div></div>
+              <div class="risk__row"><div>Not reported for the semester<small>From reporting</small></div><div class="pts">20</div></div>
+              <div class="risk__row"><div>Previously deferred<small>From the student record</small></div><div class="pts">10</div></div>
+              <div class="risk__row"><div>Behind the expected year of study<small>From the student record</small></div><div class="pts">10</div></div>
+              <div class="risk__bands">
+                <div class="risk__band risk__band--hi"><strong>HIGH · 70–100</strong>Immediate intervention recommended</div>
+                <div class="risk__band risk__band--mid"><strong>MEDIUM · 40–69</strong>Monitor closely</div>
+                <div class="risk__band risk__band--lo"><strong>LOW · 0–39</strong>On track</div>
+              </div>
+            </div>
+            <p style="margin-top: 1.2rem; font-size: 0.9rem; color: var(--ink-soft); max-width: 66ch">
+              Each flag appears with its specific reasons — for example, "fee balance 85% unpaid" — in the department's student list and as a per-department count on the session dashboard.
+            </p>
+          </div>
+
+          <div class="group" id="roles">
+            <h2>Who sees what</h2>
+            <div class="table-wrap">
+              <table class="data">
+                <thead><tr><th>Role</th><th>Analytics access</th></tr></thead>
+                <tbody>
+                  <tr><td>Institution admin</td><td>Full session dashboard across all departments; fee forecasts</td></tr>
+                  <tr><td>School admin</td><td>School-level dashboard with department breakdowns</td></tr>
+                  <tr><td>Department admin</td><td>Their students' at-risk indicators; course difficulty</td></tr>
+                  <tr><td>Lecturer</td><td>Their own courses — class average and score distribution</td></tr>
+                  <tr><td>Student</td><td>Their own grade trajectory and fee history, never anyone else's</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="group__intro" style="margin-top: 1.2rem">The session dashboard answers what management actually asks: who has reported, what share of fee accounts are cleared, average CAT scores, which departments carry the most risk, and collected versus billed.</p>
+          </div>
+
+          <div class="group" id="ethics">
+            <h2>Privacy &amp; ethics</h2>
+            <p class="group__intro">Analytics on student data carries real weight. These are the rules the design holds itself to, in line with the Kenya Data Protection Act.</p>
+            <div class="two-col">
+              <div class="yes">
+                <h3>Acceptable</h3>
+                <ul>
+                  <li>Aggregate statistics where no individual is identified</li>
+                  <li>At-risk scores visible only to authorised staff, department admin and above</li>
+                  <li>Students seeing their own trajectory</li>
+                  <li>Anonymised data for any model training</li>
+                  <li>Flags built on documented, explainable signals that staff can review and override</li>
+                </ul>
+              </div>
+              <div class="no">
+                <h3>Not acceptable</h3>
+                <ul>
+                  <li>Sharing an individual's risk score publicly or with other students</li>
+                  <li>Using ethnicity, religion or county as predictive features without an ethical review</li>
+                  <li>Automated decisions based on model output alone — a person must review and act</li>
+                  <li>Retaining raw student data past its retention period for analytics</li>
+                </ul>
+              </div>
+            </div>
+            <div class="callout callout--ok" style="margin-top: 1.5rem">
+              <strong>Students have the right to know</strong> when automated processing informed a score or decision that affects them. See the <a href="compliance.html#data-rights" style="color: var(--stamp)">student data rights</a>.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing" style="padding-top: 1rem">
+        <div class="wrap">
+          <h2>Want early-warning signals without a black box?</h2>
+          <p>We can walk through the scoring rules against your own cohort structure.</p>
+          <div class="closing__ctas">
+            <a href="#contact" class="btn btn--dark btn--large">Contact us</a>
+            <a href="modules.html" class="btn btn--ghost btn--large">Browse the modules</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="footer__top">
+          <div class="footer__brand"><span class="mark__word">Naet</span><p>A university system of record for Kenyan institutions.</p></div>
+          <div class="footer__cols">
+            <div class="footer__col"><h4>PRODUCT</h4><ul>
+              <li><a href="modules.html">Modules</a></li><li><a href="index.html#architecture">Architecture</a></li><li><a href="index.html#mechanism">Grievances</a></li><li><a href="analytics.html">Analytics</a></li></ul></div>
+            <div class="footer__col"><h4>COMPLIANCE</h4><ul>
+              <li><a href="compliance.html">Regulators</a></li><li><a href="compliance.html#data-rights">Student data rights</a></li><li><a href="compliance.html#checklist">Go-live checklist</a></li></ul></div>
+            <div class="footer__col"><h4>CONTACT</h4><ul>
+              <li><a href="#contact">Request a walkthrough</a></li><li><a href="#contact" data-contact-topic="Demo credentials">Request credentials</a></li></ul></div>
+            <div class="footer__col"><h4>DEMO</h4><ul><li><a href="index.html#demo">Live demo</a></li></ul></div>
+          </div>
+        </div>
+        <div class="footer__bottom"><div>© 2026 Naet.</div><div class="licence-line">SELF-HOSTED</div></div>
+      </div>
+    </footer>
+
+    <script src="site-config.js"></script>
+    <script src="site.js"></script>
+  </body>
+</html>
