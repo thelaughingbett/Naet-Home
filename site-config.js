@@ -9,9 +9,9 @@ window.NAET_CONTACT = {
   note: "Typical response time: within one working day.",
   // type: "email" | "phone" | "whatsapp" | "link" | "text"
   channels: [
-    { type: "email", label: "EMAIL", value: "" },
-    { type: "phone", label: "PHONE", value: "" },
-    { type: "whatsapp", label: "WHATSAPP", value: "" },
+    { type: "email", label: "EMAIL", value: "naetrecords.help@gmail.com" },
+    { type: "phone", label: "PHONE", value: "0180793705" },
+    { type: "whatsapp", label: "WHATSAPP", value: "0180793705" },
     { type: "link", label: "BOOK A CALL", value: "Pick a time", href: "" },
     { type: "text", label: "OFFICE", value: "" },
   ],
