@@ -22,7 +22,7 @@ window.NAET_CONTACT = {
 window.NAET_VIDEO = {
   // YouTube or Vimeo link, or a video file next to the site (e.g. "overview.mp4").
   // Leave url empty ("") and every "Watch" button stays hidden.
-  url: "./Naet__The_Antidote_to_Chaos.mp4",
+  url: "./Naet__Lifecycle_of_Data.mp4",
   title: "Naet at  glance ",
   caption: "",
   // Optional poster image for a video file, e.g. "overview-poster.jpg"
