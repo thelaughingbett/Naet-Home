@@ -2097,3 +2097,27 @@ table.data tr:last-child td {
     padding: 0.85rem;
   }
 }
+
+.video-dialog__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+}
+.video-dialog__tabs button {
+  font: inherit;
+  font-size: 0.875rem;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.video-dialog__tabs button[aria-pressed="true"] {
+  background: #0f1a2b;
+  color: #e8b75c;
+  border-color: #0f1a2b;
+  opacity: 1;
+}

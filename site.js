@@ -203,16 +203,27 @@
     if (location.hash === "#contact") open("");
   })();
 
-  /* ---------- video dialog (player is created only when opened) ---------- */
+  /* ---------- video dialog (playlist; player is created only when played) ---------- */
   (function () {
-    var cfg = window.NAET_VIDEO || {};
+    var list = (
+      window.NAET_VIDEOS || (window.NAET_VIDEO ? [window.NAET_VIDEO] : [])
+    ).filter(function (v) {
+      return v && v.url;
+    });
+    if (!list.length) return; // nothing configured: triggers stay hidden
+
     var triggers = document.querySelectorAll("[data-video-trigger]");
-    if (!cfg.url) return; // no video configured: triggers stay hidden
     triggers.forEach(function (t) {
       t.hidden = false;
+      // Generic triggers (no data-video-id) open the playlist, so label them accordingly
+      if (list.length > 1 && !t.getAttribute("data-video-id")) {
+        t.textContent = "▶ Watch the videos";
+      }
     });
+
     var dlg = null,
-      lastFocus = null;
+      lastFocus = null,
+      current = 0;
 
     function parse(url) {
       var m;
@@ -243,9 +254,25 @@
       dlg.innerHTML =
         '<div class="contact-dialog__head"><h2 id="video-title"></h2>' +
         '<button type="button" class="contact-dialog__close" data-video-close>Close</button></div>' +
+        '<div class="video-dialog__tabs" id="video-tabs" role="group" aria-label="Choose a video" hidden></div>' +
         '<div class="video-dialog__stage" id="video-stage"></div>' +
         '<p class="video-dialog__caption" id="video-caption" hidden></p>';
       document.body.appendChild(dlg);
+
+      var tabs = dlg.querySelector("#video-tabs");
+      if (list.length > 1) {
+        tabs.hidden = false;
+        list.forEach(function (v, i) {
+          var b = document.createElement("button");
+          b.type = "button";
+          b.textContent = v.title || "Video " + (i + 1);
+          b.addEventListener("click", function () {
+            play(i);
+          });
+          tabs.appendChild(b);
+        });
+      }
+
       dlg.addEventListener("close", function () {
         dlg.querySelector("#video-stage").textContent = ""; // destroys the player, stops playback
         if (lastFocus && lastFocus.focus) lastFocus.focus();
@@ -259,20 +286,23 @@
       });
     }
 
-    function open() {
-      if (!dlg) build();
-      if (typeof dlg.showModal !== "function") {
-        window.open(cfg.url, "_blank", "noopener");
-        return;
-      }
-      var title = cfg.title || "Overview video";
+    function play(i) {
+      current = i;
+      var v = list[i];
+      var title = v.title || "Overview video";
       dlg.querySelector("#video-title").textContent = title;
+
       var cap = dlg.querySelector("#video-caption");
-      cap.hidden = !cfg.caption;
-      cap.textContent = cfg.caption || "";
+      cap.hidden = !v.caption;
+      cap.textContent = v.caption || "";
+
+      dlg.querySelectorAll("#video-tabs button").forEach(function (b, n) {
+        b.setAttribute("aria-pressed", n === i ? "true" : "false");
+      });
+
       var stage = dlg.querySelector("#video-stage");
-      stage.textContent = "";
-      var p = parse(cfg.url),
+      stage.textContent = ""; // tears down the previous player first
+      var p = parse(v.url),
         el;
       if (p.kind === "iframe") {
         el = document.createElement("iframe");
@@ -287,21 +317,39 @@
         el.autoplay = true;
         el.playsInline = true;
         el.preload = "metadata";
-        if (cfg.poster) el.poster = cfg.poster;
+        if (v.poster) el.poster = v.poster;
         el.src = p.src;
       }
       stage.appendChild(el);
+    }
+
+    function indexOf(id) {
+      for (var i = 0; i < list.length; i++) if (list[i].id === id) return i;
+      return 0; // unknown or missing id: first video
+    }
+
+    function open(id) {
+      if (!dlg) build();
+      var i = indexOf(id);
+      if (typeof dlg.showModal !== "function") {
+        window.open(list[i].url, "_blank", "noopener");
+        return;
+      }
       lastFocus = document.activeElement;
-      dlg.showModal();
+      play(i);
+      if (!dlg.open) dlg.showModal();
     }
 
     document.addEventListener("click", function (e) {
       var t = e.target.closest && e.target.closest("[data-video-trigger]");
       if (t) {
         e.preventDefault();
-        open();
+        open(t.getAttribute("data-video-id"));
       }
     });
-    if (location.hash === "#video") open();
+
+    // #video opens the first video, #video-<id> opens a specific one
+    var m = location.hash.match(/^#video(?:-([\w-]+))?$/);
+    if (m) open(m[1] || "");
   })();
 })();

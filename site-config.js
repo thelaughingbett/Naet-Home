@@ -19,15 +19,25 @@ window.NAET_CONTACT = {
   ],
 };
 
-window.NAET_VIDEO = {
-  // YouTube or Vimeo link, or a video file next to the site (e.g. "overview.mp4").
-  // Leave url empty ("") and every "Watch" button stays hidden.
-  url: "./Naet__Lifecycle_of_Data.mp4",
-  title: "Naet at  glance ",
-  caption: "",
-  // Optional poster image for a video file, e.g. "overview-poster.jpg"
-  poster: "",
-};
+window.NAET_VIDEOS = [
+  {
+    id: "overview",
+    url: "./Naet__Lifecycle_of_Data.mp4",
+    title: "Naet at a glance",
+    caption: "How data moves through the student lifecycle.",
+    poster: "",
+  },
+  {
+    id: "architecture",
+    url: "./Naet__The_Antidote_to_Chaos.mp4",
+    title: "Architecture & design decisions",
+    caption:
+      "Why Naet is built the way it is: one record, pluggable integrations, and an auditable trail.",
+    poster: "",
+  },
+];
+// Leave the array empty (or give every video an empty url) and all "Watch"
+// buttons stay hidden.
 
 window.NAET_DEMO = {
   url: "https://naet-tat2.onrender.com/",
