@@ -265,7 +265,7 @@
         list.forEach(function (v, i) {
           var b = document.createElement("button");
           b.type = "button";
-          b.textContent = v.title || "Video " + (i + 1);
+          b.textContent = v.tab || v.title || "Video " + (i + 1);
           b.addEventListener("click", function () {
             play(i);
           });

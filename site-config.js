@@ -21,8 +21,26 @@ window.NAET_CONTACT = {
 
 window.NAET_VIDEOS = [
   {
+    id: "record",
+    url: "./Naet__System_of_Record.mp4",
+    tab: "System of record",
+    title: "What a system of record means for a university",
+    caption: "One student record shared by every office.",
+    poster: "",
+  },
+  {
+    id: "portal",
+    url: "./Naet__The_Portal_Cure.mp4",
+    tab: "The portal problem",
+    title: "The cure for the typical student portal",
+    caption:
+      "Why most university portals fail, and what Naet does differently.",
+    poster: "",
+  },
+  {
     id: "overview",
     url: "./Naet__Lifecycle_of_Data.mp4",
+    tab: "Student lifecycle",
     title: "Naet at a glance",
     caption: "How data moves through the student lifecycle.",
     poster: "",
@@ -30,9 +48,18 @@ window.NAET_VIDEOS = [
   {
     id: "architecture",
     url: "./Naet__The_Antidote_to_Chaos.mp4",
+    tab: "Architecture",
     title: "Architecture & design decisions",
+    caption: "Why Naet is built the way it is.",
+    poster: "",
+  },
+  {
+    id: "results",
+    url: "./The_Journey_of_the_68.mp4",
+    tab: "Result journey",
+    title: "The journey of a result: lecturer to HOD to student",
     caption:
-      "Why Naet is built the way it is: one record, pluggable integrations, and an auditable trail.",
+      "How a single grade is entered, approved by the Head of Department, and published.",
     poster: "",
   },
 ];
