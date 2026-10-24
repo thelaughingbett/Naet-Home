@@ -70,7 +70,7 @@ window.NAET_DEMO = {
   url: "https://naet-tat2.onrender.com/",
   note: "Demo resets every 24 hours",
   // Link to a page/file listing the logins (opens in a new tab). "" = use the contact flow.
-  credentialsUrl: "credentials.txt",
+  credentialsUrl: "credentials.html",
   credentialsLabel: "Get credentials",
   // Add entries to show a click-to-copy table instead:
   // { role: "Registrar", username: "registrar@example.com", password: "change-me" }

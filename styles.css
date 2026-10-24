@@ -763,13 +763,15 @@ nav.primary a[aria-current="page"] {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
-  align-items: start;
+  align-items: stretch;
 }
 .arch-card {
   border: 1px solid var(--ink);
   border-radius: 4px;
   background: var(--paper-white);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .arch-card__head {
   border-bottom: 1px solid var(--line);
@@ -795,6 +797,7 @@ nav.primary a[aria-current="page"] {
 }
 .arch-card__body {
   padding: 1.3rem 1.3rem 1.5rem;
+  flex: 1; /* body absorbs the extra height */
 }
 .arch-card__body p {
   color: var(--ink-soft);
@@ -803,6 +806,7 @@ nav.primary a[aria-current="page"] {
 .arch-card__body p + p {
   margin-top: 0.9rem;
 }
+
 .event-flow {
   margin-top: 1.2rem;
   background: var(--ink);
@@ -848,7 +852,9 @@ nav.primary a[aria-current="page"] {
   border-top: 1px dotted var(--line);
   font-size: 0.82rem;
   color: var(--ink-soft);
+  margin-top: auto; /* keeps the footer at the bottom */
 }
+
 .retry {
   margin-top: 1.2rem;
   display: flex;
@@ -1379,6 +1385,7 @@ nav.primary a[aria-current="page"] {
 /* ---------- FAQ ---------- */
 .faq {
   padding: 5rem 0;
+  display: flex;
 }
 .faq__list {
   max-width: 820px;
